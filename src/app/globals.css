@@ -1,3 +1,36 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.nvicon{        
+        color: white;
+}
+.nvicon:hover {
+        color: black;
+        cursor: pointer;
+}
+
+.parent:hover #child{
+        color: rgb(247, 246, 246);
+}
+
+.offer_parent:hover .offer_child{        
+        color: #00A8FF;
+        transition-duration: 200ms ;
+}
+
+.right_arrow{
+        color: black;
+}
+.right_arrow_parent:hover {
+        background-color: #00A8FF;
+        transition-duration: 300ms;
+        cursor: pointer;
+}
+
+.right_arrow_parent:hover .right_arrow{
+        color: white;
+        transition-duration: 300ms;
+
+        /* background-color: white; */
+}
