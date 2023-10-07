@@ -58,19 +58,24 @@ function Header() {
                 <div className="hover:text-[#00ABFF] text-lg font-medium cursor-pointer">
                   Services
                 </div>
+                <Link href={"#home_products"}>
                 <div className="hover:text-[#00ABFF] text-lg font-medium cursor-pointer">
                   Products
                 </div>
+                </Link>
+                <Link href={"#footer"}>
                 <div className="hover:text-[#00ABFF] text-lg font-medium cursor-pointer">
                   Contacts
                 </div>
+                </Link>
+                
               </div>
             </div>
           </div>
         </div>
       </div>
 
-      <div className="bg-red-400 h-40">sdfgsdfgdfg</div>
+      {/* <div className="bg-red-400 h-40">sdfgsdfgdfg</div> */}
 
       {/* <div className="container mx-auto w-full">
         <div>dfuighgh</div>

@@ -9,6 +9,7 @@ function Footer() {
   return (
    <>
     <div
+    id='footer'
         className="relative  w-full h-full bg-cover bg-top lg:overflow-x-hidden"
         style={{
           backgroundImage:

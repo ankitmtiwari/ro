@@ -4,7 +4,7 @@ import Product_card from '../Cards/Product_card'
 function Product() {
   return (
     <> 
-    <div className='bg-[#F4FAFE] py-10'>
+    <div id="home_products" className='bg-[#F4FAFE] py-8'>
         <div className='text-center py-8'>
             <div className='text-blue-400 text-xl font-bold py-4'>Most Popular</div>
             <div className='text-black text-5xl font-bold'>Products</div>

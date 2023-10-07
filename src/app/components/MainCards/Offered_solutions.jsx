@@ -4,7 +4,7 @@ import Offered_solutions_card from "../Cards/Offered_solutions_card";
 function Offered_solutions() {
   return (
     <>
-      <div id="offeredServices" className="py-20">
+      <div id="offeredServices" className="py-20 mt-30">
         <div className="text-center">
           <div className="text-blue-400 text-xl font-semibold py-4">
             What we offer
