@@ -2,7 +2,7 @@ import Image from "next/image";
 import React from "react";
 import { BsTelephone } from "react-icons/bs";
 import { TfiEmail,TfiYoutube } from "react-icons/tfi";
-import { BiLogoFacebook } from "react-icons/Bi";
+import { BiLogoFacebook } from "react-icons/bi";
 import { AiOutlineTwitter } from "react-icons/ai";
 import Link from "next/link";
 
