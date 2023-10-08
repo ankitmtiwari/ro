@@ -11,7 +11,8 @@ function Offered_solutions() {
           </div>
           <div className="text-black text-4xl font-bold ">Home Water Solutions</div>
         </div>
-        <div className="grid grid-cols-3 gap-10 py-10 px-5 mx-36">
+        {/* <div className="grid grid-cols-3 gap-10 py-10 px-5 mx-36"> */}
+        <div className="grid grid-cols-1 lg:grid-cols-3   gap-20  lg:gap-10 py-10 mx-5 lg:mx-36">
         <Offered_solutions_card title="Whole Home Fillteration System" desc="This is the description for the first solution and we are wiilling to provide the best solution.This is the description for the first solution and we are wiilling to provide the best solution"/>
         <Offered_solutions_card title="Solution No 2" desc="This is the description for the first solution and we are wiilling to provide the best solution.This is the description for the first solution and we are wiilling to provide the best solution"/>
         <Offered_solutions_card title="Solution No 3 Know More Below" desc="This is the description for the first solution and we are wiilling to provide the best solution.This is the description for the first solution and we are wiilling to provide the best solution"/>

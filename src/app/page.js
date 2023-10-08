@@ -14,9 +14,10 @@ export default function Home() {
     <>
       {/* <Header /> */}
       <Whatwedo />
-      {/* <Product />
-      <Offered_solutions />
+       <Product />
+   <Offered_solutions />
       <Articles/>
+{/*
       <All_brands_main/>
       <Catchy_words />
       <Footer /> */}
