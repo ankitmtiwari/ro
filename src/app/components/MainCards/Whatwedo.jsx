@@ -6,15 +6,13 @@ function Whatwedo() {
     <>
       <div className="bg-[#F4FAFE] py-14">
         <div className="text-center py-10">
-          <div className="text-blue-400 text-xl font-bold py-4">What We Do</div>
-          <div className="text-black text-5xl font-extrabold">
-            We transform ordinary tap
+          <div className="text-blue-400 text-2xl mx-2  font-bold py-4">What We Do</div>
+          <div className="text-black lg:max-w-2xl mx-5 lg:mx-auto text-3xl lg:text-5xl font-extrabold">
+            We transform ordinary tap  water into clean
           </div>
-          <div className="text-black text-5xl font-extrabold">
-            water into clean
-          </div>
+         
         </div>
-        <div className="grid md:grid-cols-3 sm:grid-cols-1 gap-10 py-10 mx-36">
+        <div className="grid grid-cols-1 lg:grid-cols-3   gap-20  lg:gap-10 py-10 mx-5 lg:mx-36">
           <Whatwedo_card
             name="New Water Purifier"
             link="https://res.cloudinary.com/da5scjnwh/image/upload/v1696673605/RO-IMAGES/ttex8xbfqlp2netfxxrb.jpg"

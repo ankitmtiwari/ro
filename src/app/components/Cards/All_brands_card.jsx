@@ -15,40 +15,34 @@ import {  Pagination ,Autoplay} from "swiper/modules";
 const Logodata = [
   
     {
-      img: "https://res.cloudinary.com/dt0j68vdr/image/upload/v1680852260/unnamed_1_jlbvlt.png",
+      img: "https://res.cloudinary.com/da5scjnwh/image/upload/v1696758449/RO-IMAGES/hkdxvt0mjf1yh6d2yelb.svg",
     },
   
     {
-      img: "https://res.cloudinary.com/dt0j68vdr/image/upload/v1680857480/623dd76470712bdafc63c387_lirqci.png",
+      img: "https://res.cloudinary.com/da5scjnwh/image/upload/v1696758959/RO-IMAGES/ucbotjp8axmi0sqjdxwk.svg",
     },
   
     {
-      img: "https://res.cloudinary.com/dt0j68vdr/image/upload/v1680857572/61fc00073cf0e70004222069_yvthrq.png",
+      img: "https://res.cloudinary.com/da5scjnwh/image/upload/v1696758960/RO-IMAGES/geuqwrh0hoxr81cb6sh0.jpg",
     },
   
     {
-      img: "https://res.cloudinary.com/dt0j68vdr/image/upload/v1680857714/godrej-logo_rcddqd.png",
+      img: "https://res.cloudinary.com/da5scjnwh/image/upload/v1696758959/RO-IMAGES/ajeox2e5kbbjjsdgyy8v.webp",
     },
   
     {
-      img: "https://res.cloudinary.com/dt0j68vdr/image/upload/v1680858356/93-931406_png-logos_p40x03.png",
+      img: "https://res.cloudinary.com/da5scjnwh/image/upload/v1696759254/RO-IMAGES/b27454firsj8om8yebzu.webp",
     },
   
     {
-      img: "https://res.cloudinary.com/dt0j68vdr/image/upload/v1680859228/IIFL-Finance_gwnej9.png",
+      img: "https://res.cloudinary.com/da5scjnwh/image/upload/v1696759254/RO-IMAGES/bzler0ndan58e28fqalh.png",
     },
   
     {
-      img: "https://res.cloudinary.com/dt0j68vdr/image/upload/v1680859697/SeekPng.com_new-logo-png_2468404_a4oihu.png",
+      img: "https://res.cloudinary.com/da5scjnwh/image/upload/v1696759967/RO-IMAGES/ynvn2p7xn0shqnig97rc.jpg",
     },
   
-    {
-      img: "https://res.cloudinary.com/dt0j68vdr/image/upload/v1680869215/Group_12971_rve33y.png",
-    },
-  
-    {
-      img: "https://res.cloudinary.com/dt0j68vdr/image/upload/v1680869219/Group_12973_nutkmi.png",
-    },
+   
 ]
 
 function All_brands_card() {
