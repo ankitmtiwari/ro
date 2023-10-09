@@ -9,23 +9,16 @@ import Whatwedo from "./components/MainCards/Whatwedo";
 import All_brands_main from "./components/MainCards/All_brands_main";
 
 export default function Home() {
-
   return (
     <>
       <Header />
       <Whatwedo />
-       <Product />
-   <Offered_solutions />
-      <Articles/>
-      <All_brands_main/>
+      <Product />
+      <Offered_solutions />
+      <Articles />
+      <All_brands_main />
       <Catchy_words />
-    <Footer /> 
-
-{/*
-      <All_brands_main/>
-      <Catchy_words />
-      <Footer /> */}
-      
+      <Footer />
     </>
   );
 }
