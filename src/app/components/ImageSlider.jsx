@@ -1,34 +1,66 @@
-'use client'
-import React, { useState, useEffect } from 'react';
-const ImageSlider = ({ images }) => {
-  const [currentImage, setCurrentImage] = useState(0);
+"use client"
+import React, { useState } from 'react';
+import { BsChevronCompactLeft, BsChevronCompactRight } from 'react-icons/bs';
+import { RxDotFilled } from 'react-icons/rx';
 
-  useEffect(() => {
-    const timer = setTimeout(() => {
-      setCurrentImage((prevImage) => (prevImage + 1) % images.length);
-    }, 3000); // Change slide every 3 seconds
+function ImageSlider() {
+  const slides = [
+    {
+      url: 'https://res.cloudinary.com/da5scjnwh/image/upload/v1696949127/RO-IMAGES/vlep3f4tf5rnszyh1j3o.jpg'
+    },
+    // {
+    //   url: 'https://res.cloudinary.com/da5scjnwh/image/upload/v1696949497/RO-IMAGES/wzy8bawpah2cvhpg4ktg.jpg'
+    // },
+    {
+      url: 'https://res.cloudinary.com/da5scjnwh/image/upload/v1696951387/RO-IMAGES/g1cpsltesymi6vewmwsz.webp'
+    }
+  ];
 
-    return () => clearTimeout(timer);
-  }, [currentImage, images]);
+  const [currentIndex, setCurrentIndex] = useState(0);
+
+  const prevSlide = () => {
+    const isFirstSlide = currentIndex === 0;
+    const newIndex = isFirstSlide ? slides.length - 1 : currentIndex - 1;
+    setCurrentIndex(newIndex);
+  };
+
+  const nextSlide = () => {
+    const isLastSlide = currentIndex === slides.length - 1;
+    const newIndex = isLastSlide ? 0 : currentIndex + 1;
+    setCurrentIndex(newIndex);
+  };
+
+  const goToSlide = (slideIndex) => {
+    setCurrentIndex(slideIndex);
+  };
 
   return (
-    <div className="relative w-full h-96 overflow-hidden">
-      {images.map((image, index) => (
-        <div
-          key={index}
-          className={`absolute w-full h-full transition-opacity ${
-            currentImage === index ? 'opacity-100' : 'opacity-0'
-          }`}
-        >
-          <img
-            src={image}
-            alt={`Image ${index + 1}`}
-            className="w-full h-full object-cover"
-          />
-        </div>
-      ))}
+    <div className='max-w-[1920px] h-[350px] lg:h-[700px] w-full m-auto py-16 px-4 relative group'>
+      <div
+        style={{ backgroundImage: `url(${slides[currentIndex].url})` }}
+        className='w-full h-full rounded-2xl bg-center bg-contain bg-no-repeat duration-500'
+      ></div>
+      {/* Left Arrow */}
+      <div className='hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] left-5 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer'>
+        <BsChevronCompactLeft onClick={prevSlide} size={30} />
+      </div>
+      {/* Right Arrow */}
+      <div className='hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] right-5 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer'>
+        <BsChevronCompactRight onClick={nextSlide} size={30} />
+      </div>
+      <div className='flex top-4 justify-center py-2'>
+        {slides.map((slide, slideIndex) => (
+          <div
+            key={slideIndex}
+            onClick={() => goToSlide(slideIndex)}
+            className='text-2xl cursor-pointer'
+          >
+            <RxDotFilled />
+          </div>
+        ))}
+      </div>
     </div>
   );
-};
+}
 
-export default ImageSlider;
+export default ImageSlider
