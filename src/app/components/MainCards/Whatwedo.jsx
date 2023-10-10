@@ -10,7 +10,6 @@ function Whatwedo() {
           <div className="text-black lg:max-w-2xl mx-5 lg:mx-auto text-3xl lg:text-5xl font-extrabold">
             We transform ordinary tap  water into clean
           </div>
-         
         </div>
         <div className="grid grid-cols-1 lg:grid-cols-3   gap-20  lg:gap-10 py-10 mx-5 lg:mx-36">
           <Whatwedo_card
