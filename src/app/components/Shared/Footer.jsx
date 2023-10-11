@@ -127,7 +127,7 @@ function Footer() {
                   <div className="flex justify-start align-middle items-center gap-2 pb-0.5">
                     <GrMail size={12} />
                     <div className="text-[13px] font-[400]">
-                      info@cliniq.com
+                      dev.ankit.tiwari@gmail.com
                     </div>
                   </div>
                 </div>
@@ -135,7 +135,7 @@ function Footer() {
                   <div className="flex justify-start align-middle items-center gap-2 pb-0.5">
                     <HiOutlineLocationMarker size={12} />
                     <div className="text-[13px] font-[400]">
-                      60 East 65th Street, New York
+                      Basti, UttarPradesh
                     </div>
                   </div>
                 </div>
@@ -145,7 +145,7 @@ function Footer() {
 
           <div className="text-white flex flex-col lg:flex-row justify-start lg:justify-between lg:align-middle lg:items-center border-t border-white mx-5 lg:mx-16 pt-3 lg:pt-7 lg:gap-0 gap-3 ">
             <div className="text-[13px] font-[400]  ">
-              ©2021 CLINIQ. All rights reserved
+              ©2023 Ankit. All rights reserved
             </div>
             <div className="flex  justify-start lg:justify-between align-middle items-center gap-5 lg:gap-10 lg:mr-20">
               <div className="text-[13px] font-[400] hover:text-gray-400  cursor-pointer">

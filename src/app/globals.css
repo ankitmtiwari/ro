@@ -4,10 +4,16 @@
 
 .nvicon{        
         color: white;
+        /* border-color: white; */
+        /* border-radius: 100%; */
+        padding: 1px;
 }
 .nvicon:hover {
-        color: black;
+        /* color: black; */
         cursor: pointer;
+        color: blue;
+        background: white;
+        /* border-radius: 20%; */
 }
 
 .parent:hover #child{
