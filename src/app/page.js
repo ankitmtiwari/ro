@@ -8,10 +8,12 @@ import Catchy_words from "./components/MainCards/Catchy_words";
 import Whatwedo from "./components/MainCards/Whatwedo";
 import All_brands_main from "./components/MainCards/All_brands_main";
 import ImageSlider from "./components/ImageSlider";
-
+import test from "./components/test";
+import Test_demo from "./components/Test_demo";
 export default function Home() {
   return (
     <>
+    {/* <Test_demo/> */}
       <Header />
       <ImageSlider />
       <Whatwedo />
