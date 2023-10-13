@@ -4,8 +4,8 @@ import Image from "next/image";
 function Catchy_words_card(props) {
     return (
         <>
-          <div className="border-b-2 lg:border-r-2 sm:border-r-2 ">
-            <div className='flex justify-start align-middle items-center gap-4'>
+          <div className="border-b-2 sm:border-0 ">
+            <div className='flex justify-start align-middle items-center gap-4 sm:border-r-2'>
               <div>
                 <Image
                   src={props.img_url}

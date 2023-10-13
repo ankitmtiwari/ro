@@ -9,7 +9,7 @@ function Product() {
             <div className='text-blue-400 text-xl font-bold py-4'>Most Popular</div>
             <div className='text-black text-5xl font-bold'>Products</div>
         </div>
-        <div className='grid grid-cols-2 lg:grid-cols-4   gap-10  lg:gap-10 py-10 mx-5 lg:mx-36'>
+        <div className='grid grid-cols-2 lg:grid-cols-4 gap-5 py-10 mx-5 lg:mx-36'>
         {/* <div className='grid grid-cols-4 gap-10 mx-36 py-5'> */}
 
             <Product_card name={"water-1"} price={"1000.00"} className="p-2"/>

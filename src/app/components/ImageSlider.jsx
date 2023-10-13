@@ -41,7 +41,8 @@ function ImageSlider() {
 
   return (
     <>
-    <div className="sm:hidden p-1 rounded-md bock ">
+    {/* FOR MOBILE SIZES */}
+    <div className="bock sm:hidden p-1 rounded-md  ">
         <Swiper
           //  modules={[Navigation, Pagination, Autoplay]}
           slidesPerView={1}
@@ -64,7 +65,8 @@ function ImageSlider() {
           ))}
         </Swiper>
       </div>
-      <div className="sm:mt-0 p-1 rounded-md hidden sm:block">
+      {/* FOR BIG SCREENS LAPTOPS */}
+      <div className="hidden sm:block sm:mt-0 p-1 rounded-md ">
         <Swiper
           //  modules={[Navigation, Pagination, Autoplay]}
           slidesPerView={1}
