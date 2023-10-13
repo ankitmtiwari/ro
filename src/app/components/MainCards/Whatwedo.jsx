@@ -11,7 +11,7 @@ function Whatwedo() {
             We transform ordinary tap  water into clean
           </div>
         </div>
-        <div className="grid grid-cols-1 lg:grid-cols-3   gap-20  lg:gap-10 py-10 mx-5 lg:mx-36">
+        <div className="grid grid-cols-1 lg:grid-cols-3   gap-10  lg:gap-10 py-10 mx-5 lg:mx-36">
           <Whatwedo_card
             name="New Water Purifier"
             link="https://res.cloudinary.com/da5scjnwh/image/upload/v1696673605/RO-IMAGES/ttex8xbfqlp2netfxxrb.jpg"

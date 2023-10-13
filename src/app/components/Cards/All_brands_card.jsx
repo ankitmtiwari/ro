@@ -50,7 +50,7 @@ function All_brands_card() {
     <>
     <div className=" text-white  lg:pt-8">
         <div className="container m-auto">
-            <div className=" border-2 border-white py-5 lg:py-8 mx-5 lg:mx-0">
+            <div className=" border-2 border-white py-5 lg:py-8 sm:mx-5 lg:mx-0">
               <div className="">
                 <Swiper
                   slidesPerView={3}

@@ -1,7 +1,7 @@
 "use client";
 import React, { useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import {  Pagination, Autoplay } from "swiper/modules";
+import {  Pagination, Autoplay, Navigation } from "swiper/modules";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
@@ -41,11 +41,11 @@ function ImageSlider() {
 
   return (
     <>
-    <div className="sm:mt-0 p-1 rounded-md bock sm:hidden">
+    <div className="sm:hidden p-1 rounded-md bock ">
         <Swiper
           //  modules={[Navigation, Pagination, Autoplay]}
           slidesPerView={1}
-          // navigation={{clickable: true}}
+          // navigation={true}
           autoplay={{
             delay: 2500,
             disableOnInteraction: false,
@@ -68,14 +68,14 @@ function ImageSlider() {
         <Swiper
           //  modules={[Navigation, Pagination, Autoplay]}
           slidesPerView={1}
-          navigation={{clickable: true}}
+          navigation={true}
           autoplay={{
             delay: 2500,
             disableOnInteraction: false,
             pauseOnMouseEnter: true,
           }}
           pagination={{ clickable: true }}
-          modules={[Autoplay, Pagination]}
+          modules={[Autoplay, Pagination, Navigation]}
         >
           {slides.map((slide, slideIndex) => (
           <SwiperSlide>

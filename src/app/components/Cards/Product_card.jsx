@@ -12,7 +12,7 @@ function Product_card(props) {
             }
             width={300}
             height={800}
-            className="p-6"
+            className="p-2 sm:p-6"
           />
           <div className="text-center p-2">
             <div id="child" className="child title font-bold text-lg">
@@ -32,8 +32,8 @@ function Product_card(props) {
        
           <div className="absolute  inset-0 flex r justify-center text-white opacity-0 group-hover:opacity-100 transition-opacity duration-75">
             {/* <div className="transition-transform transform translate-y-2 group-hover:translate-y-0"> */}
-            <div className="transition-transform transform  group-hover:translate-y-36 duration-150">
-            <div className='text-[#00A8FF]  px-4 py-3 bg-white text-base rounded-full w-fit hover:bg-black hover:text-white   transition-all ease-in-out delay-100 cursor-pointer'>
+            <div className="transition-transform transform group-hover:translate-y-28 sm:group-hover:translate-y-36 duration-150">
+            <div className='text-[#00A8FF]  px-2 py-2 sm:px-4 sm:py-3 bg-white text-base rounded-full w-fit hover:bg-black hover:text-white   transition-all ease-in-out delay-100 cursor-pointer'>
               <div className="font-semibold">
               View Details
               </div>
