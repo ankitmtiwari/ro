@@ -5,7 +5,7 @@ import { IoIosArrowForward } from "react-icons/io";
 function Whatwedo_card(props) {
   return (
     <>
-      <div className=" bg-white rounded-md ">
+      <div className=" bg-white rounded-md mt-2 ">
         <div className="w-full relative  ">
           <div className="w-full opacity-80 hover:opacity-100 duration-200">
             <Image
@@ -18,7 +18,7 @@ function Whatwedo_card(props) {
               {props.name}
             </div>
             <div className="flex justify-center">
-              <div className="right_arrow_parent absolute bg-white mx-auto rounded-full p-8 -bottom-10   ">
+              <div className="right_arrow_parent absolute bg-white mx-auto rounded-full p-8 -bottom-10 ">
                 <IoIosArrowForward className="right_arrow" size={22} />
               </div>
             </div>

@@ -6,7 +6,7 @@ import { AiOutlineWhatsApp } from "react-icons/ai";
 function Fixed_footer() {
   return (
     <>
-      <div className="block sm:hidden fixed bottom-0 left-0 z-20 border-t border-gray-200 w-full shadow">
+      <div className="block sm:hidden sticky bottom-0 left-0 z-20 border-t border-gray-200 w-full shadow">
         <div className="bg-[#00A8FF] flex justify-around align-middle items-center">
           <div className="flex flex-col items-center align-middle font-semibold text-white p-2">
             <div>

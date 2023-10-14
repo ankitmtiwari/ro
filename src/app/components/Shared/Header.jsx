@@ -22,7 +22,7 @@ function Header() {
   return (
     <>
       {/* for laptop and big size */}
-      <div className="z-50 bg-[#00A8FF] w-full  h-28  sm:relative hidden sm:block">
+      <div className="hidden sm:block z-50 bg-[#00A8FF] w-full  h-28 relative">
         <div className=" sm:mx-36 pt-4">
           <div className="flex flex-col sm:flex-row items-center sm:justify-between">
             <div className="sm:flex  align-middle items-center sm:gap-10">
@@ -104,8 +104,9 @@ function Header() {
         </div>
       </div>
       {/* for mobile and small size */}
-      <div className="block sm:hiddw-full sm:top-14 bock sm:hidden">
-        <div className="bg-white lg:mx-36 px-1 py-2 sm:px-7 sm:py-5  rounded-lg ">
+      {/* <div className="block sm:hiddw-full sm:top-14 bock sm:hidden"> */}
+      <div className="block sm:hidden top-0 sticky left-0 z-20  w-full  rounded-b-lg">
+        <div className="bg-white lg:mx-36 px-1 py-2 sm:px-7 sm:py-5  rounded-b-lg ">
           <div className="flex justify-between align-middle items-center">
             <div>
               <Image
@@ -116,7 +117,7 @@ function Header() {
                 height={170}
               />
             </div>
-            <div className="sm:hidden block" onClick={handleNav}>
+            <div className="sm:hidden block p-1" onClick={handleNav}>
               {!nav ? <FaBars size={20} /> : ""}
             </div>
           </div>

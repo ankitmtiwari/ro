@@ -19,8 +19,8 @@ export default function Home() {
       <Articles />
       <All_brands_main />
       <Catchy_words />
-      <Fixed_footer />
       <Footer />
+      <Fixed_footer />
     </>
   );
 }
