@@ -105,7 +105,7 @@ function Header() {
       </div>
       {/* for mobile and small size */}
       {/* <div className="block sm:hiddw-full sm:top-14 bock sm:hidden"> */}
-      <div className="block sm:hidden top-0 sticky left-0 z-20  w-full  rounded-b-lg">
+      <div className="block sm:hidden top-0 sticky left-0 z-20  w-full border-b-slate-700 border-b-2 rounded-b-lg">
         <div className="bg-white lg:mx-36 px-1 py-2 sm:px-7 sm:py-5  rounded-b-lg ">
           <div className="flex justify-between align-middle items-center">
             <div>
