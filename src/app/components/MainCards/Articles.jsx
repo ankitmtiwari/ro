@@ -22,16 +22,19 @@ function Articles() {
         {/* <div className='grid grid-cols-3 gap-10 mx-48 py-5'> */}
         <div className="grid grid-cols-1 lg:grid-cols-3   gap-20  lg:gap-10 py-10 mx-5 lg:mx-36">
           <Article_card
-            title="Which water heater is more technology advanced?"
-            desc="Posuere tellus imperdiet facilisiab vaucibusy telluseu semper.…"
+            title="Why use RO Water Purifiers?"
+            desc="Impurities, especially Dissolved ones are increasing in potable Water whether supplied by municipalities or from Ground well."
+            goto="Why_use_ro"
           />
           <Article_card
             title="Which water heater is more technology advanced??"
             desc="This is water purifier basic details about the water purifier that how it works.This is water purifier basic details about the water purifier that how it works.This is water purifier basic details about the water purifier that how it works.This is water purifier basic details about the water purifier that how it works.This is water purifier basic details about the water purifier that how it works.This is water purifier basic details about the water purifier that how it works."
+            goto="Why_use_ro"
           />
           <Article_card
             title="Which water heater is more technology advanced?"
             desc="This is water purifier basic details about the water purifier that how it works.This is water purifier basic details about the water purifier that how it works.This is water purifier basic details about the water purifier that how it works.This is water purifier basic details about the water purifier that how it works.This is water purifier basic details about the water purifier that how it works.This is water purifier basic details about the water purifier that how it works."
+            goto="Why_use_ro"
           />
         </div>
       </div>
