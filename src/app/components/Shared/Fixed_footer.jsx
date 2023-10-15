@@ -30,7 +30,7 @@ function Fixed_footer() {
             </div>
           </Link>
           <div className="flex flex-col items-center align-middle font-semibold text-white p-2">
-            <Link href={`https://wa.me/#{whatsapp}`}>
+            <Link href={`https://wa.me/${whatsapp}`}>
               <div>
                 <AiOutlineWhatsApp color="white" size={22} />
               </div>
