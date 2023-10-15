@@ -29,14 +29,14 @@ function Fixed_footer() {
               <div>Email us</div>
             </div>
           </Link>
-          <div className="flex flex-col items-center align-middle font-semibold text-white p-2">
-            <Link href={`https://wa.me/${whatsapp}`}>
+          <Link href={`https://wa.me/${whatsapp}`}>
+            <div className="flex flex-col items-center align-middle font-semibold text-white p-2">
               <div>
                 <AiOutlineWhatsApp color="white" size={22} />
               </div>
               <div>Whatsapp</div>
-            </Link>
-          </div>
+            </div>
+          </Link>
         </div>
       </div>
     </>
