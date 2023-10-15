@@ -156,10 +156,11 @@ function Header() {
               <div className="p-4 w-fit bg-white  m-1 rounded-md ">
                 <Image
                   src={
-                    "https://res.cloudinary.com/da5scjnwh/image/upload/v1696169160/RO-IMAGES/fjfigtpm4zmrgb4hiou4.png"
+                    // "https://res.cloudinary.com/da5scjnwh/image/upload/v1696169160/RO-IMAGES/fjfigtpm4zmrgb4hiou4.png"
+                    logo
                   }
-                  width={120}
-                  height={120}
+                  width={100}
+                  height={80}
                   className="w-fit"
                 />
               </div>
