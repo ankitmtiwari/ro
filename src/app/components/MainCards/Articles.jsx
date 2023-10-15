@@ -37,7 +37,7 @@ function Articles() {
             img="https://res.cloudinary.com/da5scjnwh/image/upload/v1697363666/RO-IMAGES/ftfg5iljeohhw5qeaajc.webp"
             title="Which water heater is more technology advanced?"
             desc="This is water purifier basic details about the water purifier that how it works.This is water purifier basic details about the water purifier that how it works.This is water purifier basic details about the water purifier that how it works.This is water purifier basic details about the water purifier that how it works.This is water purifier basic details about the water purifier that how it works.This is water purifier basic details about the water purifier that how it works."
-            goto="articles/Why_use_ro"
+            goto="articles/why_use_ro"
           />
         </div>
       </div>
