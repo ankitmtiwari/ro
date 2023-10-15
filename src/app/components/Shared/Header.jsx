@@ -191,7 +191,7 @@ function Header() {
                 </div>
               </Link>
               <Link href={"#footer"} onClick={handleNav}>
-                <div className="hover:text-[#00ABFF] text-lg font-medium cursor-pointer">
+                <div className="hover:text-[#00ABFF] text-lg font-medium cursor-pointer border-b border-gray-600 ">
                   Contacts
                 </div>
               </Link>
