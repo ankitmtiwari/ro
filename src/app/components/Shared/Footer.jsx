@@ -6,6 +6,8 @@ import { GrMail, GrMailOption } from "react-icons/gr";
 import { HiOutlineLocationMarker } from "react-icons/hi";
 import { TbCalendarEvent } from "react-icons/tb";
 function Footer() {
+  const logo= "https://res.cloudinary.com/da5scjnwh/image/upload/v1697369204/RO-IMAGES/xvfohueml2tyr1ricdqg.png";
+
   return (
    <>
     <div
@@ -31,7 +33,7 @@ function Footer() {
           <div className="grid grid-cols-1 lg:grid-cols-4 text-white py-10 mx-5 lg:mx-16 gap-5">
             <div className="col-span-1">
               <div>
-                <img src="https://res.cloudinary.com/da5scjnwh/image/upload/v1696169160/RO-IMAGES/fjfigtpm4zmrgb4hiou4.png" />
+                <img src={logo} />
               </div>
               <div className="text-sm mt-5 leading-[1.5rem]">
                 We bring the years, global experience, and purity to guide our

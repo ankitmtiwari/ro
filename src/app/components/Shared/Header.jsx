@@ -13,34 +13,44 @@ import { FaBars, FaBarsStaggered } from "react-icons/fa";
 import Link from "next/link";
 
 function Header() {
+
   const [nav, setNav] = useState(false);
 
   const handleNav = () => {
     setNav(!nav);
   };
 
+  const whatsapp = "+918655475886";
+  const email = "devrajpathak093@gmail.com";
+  // const logo= "https://res.cloudinary.com/da5scjnwh/image/upload/v1697367379/RO-IMAGES/cmutw27fbgwvlvsj5yfx.png";
+  const logo= "https://res.cloudinary.com/da5scjnwh/image/upload/v1697369204/RO-IMAGES/xvfohueml2tyr1ricdqg.png";
+
   return (
     <>
       {/* for laptop and big size */}
-      <div className="hidden sm:block z-50 bg-[#00A8FF] w-full  h-28 relative">
+      <div id="header" className="hidden sm:block z-50 bg-[#00A8FF] w-full  h-28 relative">
         <div className=" sm:mx-36 pt-4">
           <div className="flex flex-col sm:flex-row items-center sm:justify-between">
             <div className="sm:flex  align-middle items-center sm:gap-10">
-              <div className="cursor-pointer flex sm:justify-between align-middle items-center gap-2 p-1 sm:p-0">
-                <div>
-                  {/* <BsTelephone color="white" size={22} /> */}
-                  <AiOutlineWhatsApp color="white" size={22} />
+              <Link href={`https://api.whatsapp.com/send/?phone=${whatsapp}`}>
+                <div className="cursor-pointer flex sm:justify-between align-middle items-center gap-2 p-1 sm:p-0">
+                  <div>
+                    {/* <BsTelephone color="white" size={22} /> */}
+                    <AiOutlineWhatsApp color="white" size={22} />
+                  </div>
+                  <div className="text-white text-md font-normal">
+                    {whatsapp}
+                  </div>
                 </div>
-                <div className="text-white text-md font-normal">7506145272</div>
-              </div>
-              <div className="cursor-pointer flex sm:justify-between p-1 sm:p-0 align-middle items-center gap-2">
-                <div>
-                  <TfiEmail color="white" size={22} />
+              </Link>
+              <Link href={`mailto:${email}`}>
+                <div className="cursor-pointer flex sm:justify-between p-1 sm:p-0 align-middle items-center gap-2">
+                  <div>
+                    <TfiEmail color="white" size={22} />
+                  </div>
+                  <div className=" text-white text-md font-normal">{email}</div>
                 </div>
-                <div className=" text-white text-md font-normal">
-                  dev.ankit.tiwari@gmail.com
-                </div>
-              </div>
+              </Link>
             </div>
             <div className="flex gap-4 pb-1 sm:p-0">
               {/* <BiLogoFacebook size={20} className="nvicon " /> */}
@@ -64,26 +74,34 @@ function Header() {
             <div className="flex justify-between align-middle items-center">
               <div>
                 <Image
-                  src={
-                    "https://res.cloudinary.com/da5scjnwh/image/upload/v1696169160/RO-IMAGES/fjfigtpm4zmrgb4hiou4.png"
+                  src={logo
+                    // "https://res.cloudinary.com/da5scjnwh/image/upload/v1696169160/RO-IMAGES/fjfigtpm4zmrgb4hiou4.png"
+                    // "https://res.cloudinary.com/da5scjnwh/image/upload/v1697366973/RO-IMAGES/hvqv0jdwlksxypai5zkp.jpg"
+                    // "https://res.cloudinary.com/da5scjnwh/image/upload/v1697367238/RO-IMAGES/pzpu8fovkvua1rlfj6i4.jpg"
+                    // "https://res.cloudinary.com/da5scjnwh/image/upload/v1697367379/RO-IMAGES/cmutw27fbgwvlvsj5yfx.png"
+                    // "https://www.canva.com/design/DAFxUiL0GLE/_b_uGDd-Ztfg_LDsAsPSgQ/edit?utm_content=DAFxUiL0GLE&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
                   }
-                  width={170}
-                  height={170}
+                  width={100}
+                  height={100}
                 />
               </div>
               <div className="sm:block hidden ">
                 <div className="flex align-middle items-center gap-8 ">
-                  <div className="hover:text-[#00ABFF] text-lg font-medium cursor-pointer">
-                    Home
-                  </div>
-                  <Link href={"#offeredServices"}>
+                  <Link href={"#header"}>
+                    <div className="hover:text-[#00ABFF] text-lg font-medium cursor-pointer">
+                      Home
+                    </div>
+                  </Link>
+                  <Link href={"#whatwedo"}>
                     <div className="hover:text-[#00ABFF] text-lg font-medium cursor-pointer">
                       About
                     </div>
                   </Link>
-                  <div className="hover:text-[#00ABFF] text-lg font-medium cursor-pointer">
-                    Services
-                  </div>
+                  <Link href={"#offeredServices"}>
+                    <div className="hover:text-[#00ABFF] text-lg font-medium cursor-pointer">
+                      Services
+                    </div>
+                  </Link>
                   <Link href={"#home_products"}>
                     <div className="hover:text-[#00ABFF] text-lg font-medium cursor-pointer">
                       Products
@@ -92,6 +110,11 @@ function Header() {
                   <Link href={"#footer"}>
                     <div className="hover:text-[#00ABFF] text-lg font-medium cursor-pointer">
                       Contacts
+                    </div>
+                  </Link>
+                  <Link href={"#articles"}>
+                    <div className="hover:text-[#00ABFF] text-lg font-medium cursor-pointer">
+                      Blogs
                     </div>
                   </Link>
                 </div>
@@ -105,16 +128,17 @@ function Header() {
       </div>
       {/* for mobile and small size */}
       {/* <div className="block sm:hiddw-full sm:top-14 bock sm:hidden"> */}
-      <div className="block sm:hidden top-0 sticky left-0 z-20  w-full border-b-slate-700 border-b-2 rounded-b-lg">
+      <div id="header" className="block sm:hidden top-0 sticky left-0 z-20  w-full border-b-slate-300 border-b-2 rounded-b-lg">
         <div className="bg-white lg:mx-36 px-1 py-2 sm:px-7 sm:py-5  rounded-b-lg ">
           <div className="flex justify-between align-middle items-center">
             <div>
               <Image
                 src={
-                  "https://res.cloudinary.com/da5scjnwh/image/upload/v1696169160/RO-IMAGES/fjfigtpm4zmrgb4hiou4.png"
+                  logo
+                  // "https://res.cloudinary.com/da5scjnwh/image/upload/v1696169160/RO-IMAGES/fjfigtpm4zmrgb4hiou4.png"
                 }
-                width={170}
-                height={170}
+                width={90}
+                height={90}
               />
             </div>
             <div className="sm:hidden block p-1" onClick={handleNav}>
@@ -144,9 +168,11 @@ function Header() {
               </div>
             </div>
             <div className="flex flex-col ml-3 mt-5  text-white gap-8 ">
-              <div className="hover:text-[#00ABFF] text-lg font-medium cursor-pointer border-b border-gray-600">
-                Home
-              </div>
+              <Link href={"#header"} onClick={handleNav}>
+                <div className="hover:text-[#00ABFF] text-lg font-medium cursor-pointer border-b border-gray-600">
+                  Home
+                </div>
+              </Link>
               <Link href={"#offeredServices"} onClick={handleNav}>
                 <div className="hover:text-[#00ABFF] text-lg font-medium cursor-pointer border-b border-gray-600">
                   About
@@ -158,7 +184,7 @@ function Header() {
                 </div>
               </Link>
 
-              <Link href={"#home_products"}  onClick={handleNav}>
+              <Link href={"#home_products"} onClick={handleNav}>
                 <div className="hover:text-[#00ABFF] text-lg font-medium cursor-pointer border-b border-gray-600">
                   Products
                 </div>

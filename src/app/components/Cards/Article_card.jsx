@@ -9,7 +9,7 @@ function Article_card(props) {
         <div className="relative opacity-80 hover:opacity-100 duration-200">
           <Image
             src={
-              "https://res.cloudinary.com/da5scjnwh/image/upload/v1696432110/RO-IMAGES/hfrbatwntsacdniqkh8b.jpg"
+              props.img
             }
             width={700}
             height={700}
@@ -17,7 +17,7 @@ function Article_card(props) {
           />
           <div className="flex justify-start absolute -bottom-5 left-5">
             <div className="bg-[#00A8FF] px-9 py-2.5 text-white text-md rounded-full w-fit hover:bg-black hover:text-white  transition-all ease-in-out delay-200 cursor-pointer">
-             <Link href="/Why_use_ro#Why_use_ro">
+             <Link href={props.goto}>
              Read More
              </Link>
             </div>

@@ -42,7 +42,7 @@ function ImageSlider() {
   return (
     <>
     {/* FOR MOBILE SIZES */}
-    <div className="bock sm:hidden p-1 rounded-md  ">
+    <div id="imageSlider" className="bock sm:hidden p-1 rounded-md  ">
         <Swiper
           //  modules={[Navigation, Pagination, Autoplay]}
           slidesPerView={1}
@@ -63,10 +63,17 @@ function ImageSlider() {
             />
           </SwiperSlide>
           ))}
+          <SwiperSlide>
+            <img
+              className="rounded-md"
+              src={"https://res.cloudinary.com/da5scjnwh/image/upload/v1697279664/RO-IMAGES/ftvwsndemutajwpw8rue.png"}
+              alt=""
+            />
+          </SwiperSlide>
         </Swiper>
       </div>
       {/* FOR BIG SCREENS LAPTOPS */}
-      <div className="hidden sm:block sm:mt-0 p-1 rounded-md ">
+      <div id="imageSlider" className="hidden sm:block sm:mt-0 p-1 rounded-md ">
         <Swiper
           //  modules={[Navigation, Pagination, Autoplay]}
           slidesPerView={1}

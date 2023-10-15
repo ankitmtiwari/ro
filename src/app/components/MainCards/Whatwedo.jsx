@@ -4,7 +4,7 @@ import Whatwedo_card from "../Cards/Whatwedo_card";
 function Whatwedo() {
   return (
     <>
-      <div className="bg-[#F4FAFE] py-8">
+      <div id="whatwedo" className="bg-[#F4FAFE] py-8">
         <div className="text-center py-10">
           <div className="text-blue-400 text-2xl mx-2  font-bold py-4">What We Do</div>
           <div className="text-black lg:max-w-2xl mx-5 lg:mx-auto text-3xl lg:text-5xl font-extrabold">
