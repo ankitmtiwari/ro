@@ -14,12 +14,12 @@ export default function Home() {
       {/* <Why_use_ro /> */}
       <Header />
       <ImageSlider />
+      <Catchy_words />
       <Whatwedo />
       <Product />
       <Offered_solutions />
       <Articles />
       <All_brands_main />
-      <Catchy_words />
       <Footer />
       <Fixed_footer />
     </>

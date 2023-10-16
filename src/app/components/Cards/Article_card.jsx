@@ -13,7 +13,7 @@ function Article_card(props) {
             }
             width={700}
             height={700}
-            className="rounded-t-lg"
+            className="rounded-t-lg h-56"
           />
           <div className="flex justify-start absolute -bottom-5 left-5">
             <div className="bg-[#00A8FF] px-9 py-2.5 text-white text-md rounded-full w-fit hover:bg-black hover:text-white  transition-all ease-in-out delay-200 cursor-pointer">

@@ -23,7 +23,11 @@ function Header() {
   const whatsapp = "+918655475886";
   const email = "devrajpathak093@gmail.com";
   // const logo= "https://res.cloudinary.com/da5scjnwh/image/upload/v1697367379/RO-IMAGES/cmutw27fbgwvlvsj5yfx.png";
-  const logo= "https://res.cloudinary.com/da5scjnwh/image/upload/v1697369204/RO-IMAGES/xvfohueml2tyr1ricdqg.png";
+  // const logo= "https://res.cloudinary.com/da5scjnwh/image/upload/v1697369204/RO-IMAGES/xvfohueml2tyr1ricdqg.png";
+  // const logo= "https://res.cloudinary.com/da5scjnwh/image/upload/v1697386886/RO-IMAGES/yvrquerwywwkljyfyha3.png";
+  // const logo="https://res.cloudinary.com/da5scjnwh/image/upload/v1697387088/RO-IMAGES/chg1zpfyeac5tal4u7a7.png";
+  const logo="https://res.cloudinary.com/da5scjnwh/image/upload/v1697387180/RO-IMAGES/vczuhhoylibdult5i08s.png";
+
 
   return (
     <>
@@ -87,7 +91,7 @@ function Header() {
               </div>
               <div className="sm:block hidden ">
                 <div className="flex align-middle items-center gap-8 ">
-                  <Link href={"#header"}>
+                  <Link href={"/pages/1"}>
                     <div className="hover:text-[#00ABFF] text-lg font-medium cursor-pointer">
                       Home
                     </div>

@@ -6,7 +6,8 @@ import { GrMail, GrMailOption } from "react-icons/gr";
 import { HiOutlineLocationMarker } from "react-icons/hi";
 import { TbCalendarEvent } from "react-icons/tb";
 function Footer() {
-  const logo= "https://res.cloudinary.com/da5scjnwh/image/upload/v1697369204/RO-IMAGES/xvfohueml2tyr1ricdqg.png";
+  // const logo= "https://res.cloudinary.com/da5scjnwh/image/upload/v1697369204/RO-IMAGES/xvfohueml2tyr1ricdqg.png";
+  const logo= "https://res.cloudinary.com/da5scjnwh/image/upload/v1697386886/RO-IMAGES/yvrquerwywwkljyfyha3.png";
 
   return (
    <>

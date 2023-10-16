@@ -7,11 +7,14 @@ import "swiper/css/pagination";
 import "swiper/css/scrollbar";
 
 const HowToSelect = () => {
-  const slides = [
-    {
-      // url: "https://res.cloudinary.com/da5scjnwh/image/upload/v1697279664/RO-IMAGES/ftvwsndemutajwpw8rue.png",
-    },
-  ];
+  // const slides = [
+  //   {
+  //     // url: "https://res.cloudinary.com/da5scjnwh/image/upload/v1697279664/RO-IMAGES/ftvwsndemutajwpw8rue.png",
+  //     url: "https://res.cloudinary.com/da5scjnwh/image/upload/v1697363666/RO-IMAGES/ftfg5iljeohhw5qeaajc.webp",
+  //   },
+  // ];
+
+  const img ="https://res.cloudinary.com/da5scjnwh/image/upload/v1697369548/RO-IMAGES/mgzi547vc5lujoccfrtm.jpg";
 
   return (
     <>
@@ -21,49 +24,20 @@ const HowToSelect = () => {
         </head>
         <body>
           {/* FOR MOBILE SIZES */}
-          <div className="bock sm:hidden p-1 rounded-md  ">
-            <Swiper
-              //  modules={[Navigation, Pagination, Autoplay]}
-              slidesPerView={1}
-              // navigation={true}
-              autoplay={{
-                delay: 2500,
-                disableOnInteraction: false,
-              }}
-              pagination={{ clickable: true }}
-              modules={[Autoplay, Pagination]}
-            >
-              {slides.map((slide, slideIndex) => (
-                <SwiperSlide>
-                  <img className="rounded-md" src={slide.url} alt="" />
-                </SwiperSlide>
-              ))}
-            </Swiper>
+          <div className="flex justify-center p-1 rounded-md sm:p-3">
+            <img
+              className="rounded-md w-full h-full sm:w-fit sm:h-fit"
+              src={img}
+              alt=""
+            />
           </div>
           {/* FOR BIG SCREENS LAPTOPS */}
-          <div
+          {/* <div
             id="Why_use_ro"
             className="hidden sm:block sm:mt-0 p-1 rounded-md "
           >
-            <Swiper
-              //  modules={[Navigation, Pagination, Autoplay]}
-              slidesPerView={1}
-              navigation={true}
-              autoplay={{
-                delay: 2500,
-                disableOnInteraction: false,
-                pauseOnMouseEnter: true,
-              }}
-              pagination={{ clickable: true }}
-              modules={[Autoplay, Pagination, Navigation]}
-            >
-              {slides.map((slide, slideIndex) => (
-                <SwiperSlide>
-                  <img className="rounded-md" src={slide.url} alt="" />
-                </SwiperSlide>
-              ))}
-            </Swiper>
-          </div>
+            <img className="rounded-md" src={img} alt="" />
+          </div> */}
           <div>
             <div className=" text-[#75779f] mx-2">
               <div className="container mx-auto items-center">
@@ -216,9 +190,8 @@ const HowToSelect = () => {
                             year. Maintenance of a decent purifier should be
                             under Rs.2000/- each year however maintenance of the
                             many RO purifier systems varies between Rs.2000/- to
-                            5000/- annually. We have many RO purifier
-                            plans to choose from to make it easier on your
-                            pockets.
+                            5000/- annually. We have many RO purifier plans to
+                            choose from to make it easier on your pockets.
                           </li>
                           <br />
                         </ol>
@@ -230,21 +203,20 @@ const HowToSelect = () => {
                         After going through the checklist above, assess what
                         kind of water purifier you will need to get clean and
                         suitable drinking water, along with planning a budget
-                        and electricity demands.We offer you a wide
-                        range of water purifiers for home and office to choose
-                        from, employing different technologies in each one of
-                        them to provide you with superior quality drinking
-                        water. You can choose to buy water purifiers from RO,
-                        UV, and UF technologies and well combination
-                        technologies in water purifiers, different models in
-                        different budgets to suit your needs. <br />
+                        and electricity demands.We offer you a wide range of
+                        water purifiers for home and office to choose from,
+                        employing different technologies in each one of them to
+                        provide you with superior quality drinking water. You
+                        can choose to buy water purifiers from RO, UV, and UF
+                        technologies and well combination technologies in water
+                        purifiers, different models in different budgets to suit
+                        your needs. <br />
                         <br />
-                        Our water purifiers not only give you clean and
-                        safe drinking water, but also come with many added
-                        benefits. Copper water purifiers add the goodness of
-                        copper in your water. Mineralizer in the water purifier
-                        also adds necessary minerals to your water where they
-                        lack it.
+                        Our water purifiers not only give you clean and safe
+                        drinking water, but also come with many added benefits.
+                        Copper water purifiers add the goodness of copper in
+                        your water. Mineralizer in the water purifier also adds
+                        necessary minerals to your water where they lack it.
                         <br />
                         <br />
                         Zinger Copper Hot and Bolt water purifiers are Our
