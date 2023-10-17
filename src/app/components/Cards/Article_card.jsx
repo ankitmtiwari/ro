@@ -23,7 +23,6 @@ function Article_card(props) {
             </div>
           </div>
         </div>
-
         <div className="py-6 px-8">
             <div className=" text-[21px] font-semibold my-5">{props.title}</div>
             <div className="text-md mb-4 line-clamp-2">{props.desc}</div>

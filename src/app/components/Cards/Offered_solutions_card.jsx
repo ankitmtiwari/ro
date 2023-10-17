@@ -11,10 +11,9 @@ function Offered_solutions_card(props) {
               src={
                 "https://res.cloudinary.com/da5scjnwh/image/upload/v1696516749/RO-IMAGES/gluiaeowfz2y57hxfsci.png"
               }
-              objectFit="contain "
-              layout="fixed"
-            //   fill={true}
-
+              // objectFit="contain "
+              // layout="fixed"
+              //   fill={true}
               width={100}
               height={100}
               className="h-24 w-24 mx-auto rounded-full "
@@ -27,7 +26,9 @@ function Offered_solutions_card(props) {
           </div>
         </div>
         <div className="text-center">
-          <div className="offer_child text-2xl font-bold my-3.5">{props.title}</div>
+          <div className="offer_child text-2xl font-bold my-3.5">
+            {props.title}
+          </div>
           <div className="text-md line-clamp-3 px-8">{props.desc}</div>
         </div>
       </div>

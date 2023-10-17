@@ -82,12 +82,14 @@ function All_brands_card() {
                   {Logodata.map((item, index) => (
                     <SwiperSlide key={index}>
                       {" "}
-                      <div className="relative h-20 w-24 sm:w-28 lg:h-28 fill-white stroke-white mx-3">
+                      <div className="relative h-20 w-24 sm:w-28 lg:h-28 fill-white stroke-white mx-auto">
                         <Image
                           src={item.img}
-                          layout="fill"
-                          objectFit="contain"
-                          className=" h-fit w-fit "
+                          // layout="fill"
+                          // objectFit="contain"
+                          height={100}
+                          width={100}
+                          className=" h-200 w-200"
                           alt="logo img"
                         />
                       </div>
