@@ -91,7 +91,7 @@ function Header() {
               </div>
               <div className="sm:block hidden ">
                 <div className="flex align-middle items-center gap-8 ">
-                  <Link href={"/pages/1"}>
+                  <Link href={"#"}>
                     <div className="hover:text-[#00ABFF] text-lg font-medium cursor-pointer">
                       Home
                     </div>

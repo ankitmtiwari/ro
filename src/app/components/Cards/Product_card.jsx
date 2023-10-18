@@ -38,10 +38,10 @@ function Product_card(props) {
               </div>
             </div>
 
-            <div className="absolute  inset-0 flex r justify-center text-white opacity-0 group-hover:opacity-100 transition-opacity duration-75">
+            <div className="absolute  inset-0 flex  justify-center text-white opacity-0 group-hover:opacity-100 transition-opacity duration-75">
               {/* <div className="transition-transform transform translate-y-2 group-hover:translate-y-0"> */}
-              <div className="transition-transform transform group-hover:translate-y-[50%] sm:group-hover:translate-y-[50%] duration-150">
-                <div className="text-[#00A8FF]  px-4 py-3 sm:px-4 sm:py-3 bg-white text-base rounded-full w-fit hover:bg-black hover:text-white   transition-all ease-in-out delay-100 cursor-pointer">
+              <div className="">
+                <div className=" transform group-hover:translate-y-[400%] sm:group-hover:translate-y-[400%] duration-150 text-[#00A8FF]  px-4 py-3 sm:px-4 sm:py-3 bg-white text-base rounded-full w-fit hover:bg-black hover:text-white   transition-all ease-in-out delay-100 cursor-pointer">
                   <div className="font-semibold">View Details</div>
                 </div>
               </div>

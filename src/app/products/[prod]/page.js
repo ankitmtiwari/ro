@@ -1,12 +1,21 @@
+"use client";
 import React from "react";
-import Image
- from "next/image";
+import Image from "next/image";
+import { useState } from "react";
+
 function page({ params }) {
   const current_prod = params.prod;
   const products = {
     1: {
-      image: "https://res.cloudinary.com/da5scjnwh/image/upload/v1697353573/RO-IMAGES/zohopqu51vyymzqppr2p.webp",
-      title: "KENT Ace 8 L RO + UV + UF + TDS Water Purifier with Mineral ROTM Technology,In-tank UV Disinfection",
+      display_Image:
+        "https://res.cloudinary.com/da5scjnwh/image/upload/v1697353573/RO-IMAGES/zohopqu51vyymzqppr2p.webp",
+      images: [
+        "https://res.cloudinary.com/da5scjnwh/image/upload/v1697353573/RO-IMAGES/zohopqu51vyymzqppr2p.webp",
+        "https://res.cloudinary.com/da5scjnwh/image/upload/v1697353573/RO-IMAGES/vqauzdc3ipwkknr9iugz.webp",
+        "https://res.cloudinary.com/da5scjnwh/image/upload/v1697353573/RO-IMAGES/dkjjytilwreacmhabsan.webp",
+      ],
+      title:
+        "KENT Ace 8 L RO + UV + UF + TDS Water Purifier with Mineral ROTM Technology,In-tank UV Disinfection",
       desc: {
         Model_Name: "abc23",
         Series: "a-23",
@@ -51,8 +60,15 @@ function page({ params }) {
       },
     },
     2: {
-      image: "https://res.cloudinary.com/da5scjnwh/image/upload/v1697353572/RO-IMAGES/zvk3rztjbiboy2jammnn.webp",
-      title: "LIVPURE LIV-PEP-PRO-STAR. 7 L RO + UV + UF + Minerals Water Purifier",
+      display_Image:
+        "https://res.cloudinary.com/da5scjnwh/image/upload/v1697353572/RO-IMAGES/zvk3rztjbiboy2jammnn.webp",
+      images: [
+        "https://res.cloudinary.com/da5scjnwh/image/upload/v1697353573/RO-IMAGES/zohopqu51vyymzqppr2p.webp",
+        "https://res.cloudinary.com/da5scjnwh/image/upload/v1697353573/RO-IMAGES/vqauzdc3ipwkknr9iugz.webp",
+        "https://res.cloudinary.com/da5scjnwh/image/upload/v1697353573/RO-IMAGES/dkjjytilwreacmhabsan.webp",
+      ],
+      title:
+        "LIVPURE LIV-PEP-PRO-STAR. 7 L RO + UV + UF + Minerals Water Purifier",
       desc: {
         "Model Name": "abc23",
         Series: "a-23",
@@ -97,8 +113,15 @@ function page({ params }) {
       },
     },
     3: {
-      image: "https://res.cloudinary.com/da5scjnwh/image/upload/v1697353573/RO-IMAGES/vqauzdc3ipwkknr9iugz.webp",
-      title: "Aqua Fresh Opel copper 18 ltr+copper filter 18 L RO + UV + UF + Copper + TDS Control Water Purifier with Prefilter",
+      display_Image:
+        "https://res.cloudinary.com/da5scjnwh/image/upload/v1697353573/RO-IMAGES/vqauzdc3ipwkknr9iugz.webp",
+      images: [
+        "https://res.cloudinary.com/da5scjnwh/image/upload/v1697353573/RO-IMAGES/zohopqu51vyymzqppr2p.webp",
+        "https://res.cloudinary.com/da5scjnwh/image/upload/v1697353573/RO-IMAGES/vqauzdc3ipwkknr9iugz.webp",
+        "https://res.cloudinary.com/da5scjnwh/image/upload/v1697353573/RO-IMAGES/dkjjytilwreacmhabsan.webp",
+      ],
+      title:
+        "Aqua Fresh Opel copper 18 ltr+copper filter 18 L RO + UV + UF + Copper + TDS Control Water Purifier with Prefilter",
       desc: {
         "Model Name": "abc23",
         Series: "a-23",
@@ -143,8 +166,15 @@ function page({ params }) {
       },
     },
     4: {
-      image: "https://res.cloudinary.com/da5scjnwh/image/upload/v1697353573/RO-IMAGES/dkjjytilwreacmhabsan.webp",
-      title: "Aqua Fresh Omega Audy+Ro+Uv+Uf+Tds+mineral 12 L RO + UV + UF + TDS Water Purifier with Prefilter",
+      display_Image:
+        "https://res.cloudinary.com/da5scjnwh/image/upload/v1697353573/RO-IMAGES/dkjjytilwreacmhabsan.webp",
+      images: [
+        "https://res.cloudinary.com/da5scjnwh/image/upload/v1697353573/RO-IMAGES/zohopqu51vyymzqppr2p.webp",
+        "https://res.cloudinary.com/da5scjnwh/image/upload/v1697353573/RO-IMAGES/vqauzdc3ipwkknr9iugz.webp",
+        "https://res.cloudinary.com/da5scjnwh/image/upload/v1697353573/RO-IMAGES/dkjjytilwreacmhabsan.webp",
+      ],
+      title:
+        "Aqua Fresh Omega Audy+Ro+Uv+Uf+Tds+mineral 12 L RO + UV + UF + TDS Water Purifier with Prefilter",
       desc: {
         "Model Name": "abc23",
         Series: "a-23",
@@ -190,20 +220,49 @@ function page({ params }) {
     },
   };
 
-  const img = products[current_prod].image;
+  const img = products[current_prod].display_Image;
+  const all_img = [img, ...products[current_prod].images];
   const title = products[current_prod].title;
   const desc = products[current_prod].desc;
+
+  const [bigImage, setBigImage] = useState(img);
+
+  // function handleCurrentImage(cImg){
+  //   setCurImage(cImg);
+  // }
+
   return (
     <>
       <div className="p-2">
-        <div className="font-bold text-xl">
-            {title}
+        <div className="font-bold text-xl">{title}</div>
+        <div className="flex flex-row justify-start">
+          <div className="p-0">
+            {all_img.map((img_l) => (
+              <div
+                className="cursor-pointer p-2 mb-2 border-2   hover:border-blue-400"
+                onMouseEnter={() => setBigImage(img_l)}
+              >
+                <Image
+                  src={img_l}
+                  height={300}
+                  width={400}
+                  className="h-10 w-10"
+                  // onClick={() => setBigImage(img_l)}
+                />
+              </div>
+            ))}
+          </div>
+          <div className="p-2 border-2">
+            <Image src={bigImage} height={300} width={400} className="h-96 p-5" />
+          </div>
         </div>
-        <div className="m-auto"> 
-            <Image src={img} height={300} width={400} className="h-96"/>
-        </div>
-        {Object.keys(desc).map((item,index) => (
-          <div key={index} className={`flex justify-between ${index%2==0?"bg-blue-300 text-white":"bg-white text-black"}  p-4 m-auto`}>
+        {Object.keys(desc).map((item, index) => (
+          <div
+            key={index}
+            className={`flex justify-between ${
+              index % 2 == 0 ? "bg-blue-300 text-white" : "bg-white text-black"
+            }  p-4 m-auto`}
+          >
             <div className="font-bold text-xl">{item}</div>
             <div className="text-sm">{desc[item]}</div>
           </div>
