@@ -10,9 +10,10 @@ function page({ params }) {
       display_Image:
         "https://res.cloudinary.com/da5scjnwh/image/upload/v1697353573/RO-IMAGES/zohopqu51vyymzqppr2p.webp",
       images: [
-        "https://res.cloudinary.com/da5scjnwh/image/upload/v1697353573/RO-IMAGES/zohopqu51vyymzqppr2p.webp",
         "https://res.cloudinary.com/da5scjnwh/image/upload/v1697353573/RO-IMAGES/vqauzdc3ipwkknr9iugz.webp",
         "https://res.cloudinary.com/da5scjnwh/image/upload/v1697353573/RO-IMAGES/dkjjytilwreacmhabsan.webp",
+        "https://res.cloudinary.com/da5scjnwh/image/upload/v1697353573/RO-IMAGES/zohopqu51vyymzqppr2p.webp",
+
       ],
       title:
         "KENT Ace 8 L RO + UV + UF + TDS Water Purifier with Mineral ROTM Technology,In-tank UV Disinfection",
@@ -234,7 +235,42 @@ function page({ params }) {
   return (
     <>
       <div className="p-2">
-        <div className="font-bold text-xl">{title}</div>
+        <div className="sm:flex sm:gap-6 p-2 ">
+          <div className="font-bold text-xl mb-2 sm:hidden">{title}</div>
+          <div className="flex">
+            <div className="box-border border-[0.5px] h-fit">
+              {all_img.map((img_l) => (
+                <div
+                  className={`cursor-pointer box-border border-[0.5px] p-2 ${
+                    img_l === bigImage ? "border-blue-500" : ""
+                  }`}
+                  onClick={() => setBigImage(img_l)}
+                  onMouseEnter={() => setBigImage(img_l)}
+                >
+                  <Image
+                    src={img_l}
+                    height={300}
+                    width={400}
+                    className="h-10 w-10"
+                    // onClick={() => setBigImage(img_l)}
+                  />
+                </div>
+              ))}
+            </div>
+            <div className=" h-96 box-border border-[0.5px]">
+              <Image
+                src={bigImage}
+                height={300}
+                width={400}
+                className="h-96 p-4 sm:p-5 object-contain"
+              />
+            </div>
+          </div>
+          <div>
+            <div className="font-bold text-xl hidden sm:block">{title}</div>
+          </div>
+        </div>
+        {/* <div className="font-bold text-xl">{title}</div>
         <div className="flex flex-row justify-start">
           <div className="p-0">
             {all_img.map((img_l) => (
@@ -255,7 +291,7 @@ function page({ params }) {
           <div className="p-2 border-2">
             <Image src={bigImage} height={300} width={400} className="h-96 p-5" />
           </div>
-        </div>
+        </div> */}
         {Object.keys(desc).map((item, index) => (
           <div
             key={index}
