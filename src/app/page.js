@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <>
       {/* <Why_use_ro /> */}
-      <Header />
+      {/* <Header /> */}
       <ImageSlider />
       <Catchy_words />
       <Whatwedo />
@@ -21,7 +21,7 @@ export default function Home() {
       <Articles />
       <All_brands_main />
       <Footer />
-      <Fixed_footer />
+      {/* <Fixed_footer /> */}
     </>
   );
 }
