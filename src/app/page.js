@@ -20,7 +20,7 @@ export default function Home() {
       <Offered_solutions />
       <Articles />
       <All_brands_main />
-      <Footer />
+      {/* <Footer /> */}
       {/* <Fixed_footer /> */}
     </>
   );

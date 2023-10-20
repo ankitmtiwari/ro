@@ -2,6 +2,7 @@
 import React from "react";
 import Image from "next/image";
 import { useState } from "react";
+import { AiOutlineWhatsApp } from "react-icons/ai";
 
 function page({ params }) {
   const current_prod = params.prod;
@@ -13,10 +14,19 @@ function page({ params }) {
         "https://res.cloudinary.com/da5scjnwh/image/upload/v1697353573/RO-IMAGES/vqauzdc3ipwkknr9iugz.webp",
         "https://res.cloudinary.com/da5scjnwh/image/upload/v1697353573/RO-IMAGES/dkjjytilwreacmhabsan.webp",
         "https://res.cloudinary.com/da5scjnwh/image/upload/v1697353573/RO-IMAGES/zohopqu51vyymzqppr2p.webp",
-
       ],
       title:
         "KENT Ace 8 L RO + UV + UF + TDS Water Purifier with Mineral ROTM Technology,In-tank UV Disinfection",
+      required_desc: {
+        Model_Name: "abc23",
+        Series: "a-23",
+        Color: "wHITE",
+        "Total Capacity": "100LTR",
+        "Purifying Technology": "RO-UF+",
+        "Power Requirement": "240W.",
+        "Operating Voltage": "22V",
+        "Power Consumptio": "3400",
+      },
       desc: {
         Model_Name: "abc23",
         Series: "a-23",
@@ -70,6 +80,16 @@ function page({ params }) {
       ],
       title:
         "LIVPURE LIV-PEP-PRO-STAR. 7 L RO + UV + UF + Minerals Water Purifier",
+      required_desc: {
+        Model_Name: "abc23",
+        Series: "a-23",
+        Color: "wHITE",
+        "Total Capacity": "100LTR",
+        "Purifying Technology": "RO-UF+",
+        "Power Requirement": "240W.",
+        "Operating Voltage": "22V",
+        "Power Consumptio": "3400",
+      },
       desc: {
         "Model Name": "abc23",
         Series: "a-23",
@@ -123,6 +143,16 @@ function page({ params }) {
       ],
       title:
         "Aqua Fresh Opel copper 18 ltr+copper filter 18 L RO + UV + UF + Copper + TDS Control Water Purifier with Prefilter",
+      required_desc: {
+        Model_Name: "abc23",
+        Series: "a-23",
+        Color: "wHITE",
+        "Total Capacity": "100LTR",
+        "Purifying Technology": "RO-UF+",
+        "Power Requirement": "240W.",
+        "Operating Voltage": "22V",
+        "Power Consumptio": "3400",
+      },
       desc: {
         "Model Name": "abc23",
         Series: "a-23",
@@ -176,6 +206,16 @@ function page({ params }) {
       ],
       title:
         "Aqua Fresh Omega Audy+Ro+Uv+Uf+Tds+mineral 12 L RO + UV + UF + TDS Water Purifier with Prefilter",
+      required_desc: {
+        Model_Name: "abc23",
+        Series: "a-23",
+        Color: "wHITE",
+        "Total Capacity": "100LTR",
+        "Purifying Technology": "RO-UF+",
+        "Power Requirement": "240W.",
+        "Operating Voltage": "22V",
+        "Power Consumptio": "3400",
+      },
       desc: {
         "Model Name": "abc23",
         Series: "a-23",
@@ -225,6 +265,7 @@ function page({ params }) {
   const all_img = [img, ...products[current_prod].images];
   const title = products[current_prod].title;
   const desc = products[current_prod].desc;
+  const reqDesc = products[current_prod].required_desc;
 
   const [bigImage, setBigImage] = useState(img);
 
@@ -234,75 +275,77 @@ function page({ params }) {
 
   return (
     <>
-      <div className="p-2">
-        <div className="sm:flex sm:gap-6 p-2 ">
-          <div className="font-bold text-xl mb-2 sm:hidden">{title}</div>
-          <div className="flex">
-            <div className="box-border border-[0.5px] h-fit">
-              {all_img.map((img_l) => (
-                <div
-                  className={`cursor-pointer box-border border-[0.5px] p-2 ${
-                    img_l === bigImage ? "border-blue-500" : ""
-                  }`}
-                  onClick={() => setBigImage(img_l)}
-                  onMouseEnter={() => setBigImage(img_l)}
-                >
-                  <Image
-                    src={img_l}
-                    height={300}
-                    width={400}
-                    className="h-10 w-10"
-                    // onClick={() => setBigImage(img_l)}
-                  />
-                </div>
-              ))}
-            </div>
-            <div className=" h-96 box-border border-[0.5px]">
-              <Image
-                src={bigImage}
-                height={300}
-                width={400}
-                className="h-96 p-4 sm:p-5 object-contain"
-              />
-            </div>
-          </div>
-          <div>
-            <div className="font-bold text-xl hidden sm:block">{title}</div>
-          </div>
-        </div>
-        {/* <div className="font-bold text-xl">{title}</div>
-        <div className="flex flex-row justify-start">
-          <div className="p-0">
-            {all_img.map((img_l) => (
-              <div
-                className="cursor-pointer p-2 mb-2 border-2   hover:border-blue-400"
-                onMouseEnter={() => setBigImage(img_l)}
-              >
+      <div className="mt-10">
+        <div className="m-3 ">
+          <div className="sm:flex sm:gap-6 p-2 ">
+            <div className="font-bold text-xl mb-2 sm:hidden">{title}</div>
+            <div className="">
+              <div className=" h-96 box-border border-[0.5px]">
                 <Image
-                  src={img_l}
+                  src={bigImage}
                   height={300}
                   width={400}
-                  className="h-10 w-10"
-                  // onClick={() => setBigImage(img_l)}
+                  className="h-96 p-4 sm:p-5 object-contain"
                 />
               </div>
-            ))}
+              <div className="flex box-border border-[0.5px] w-fit">
+                {all_img.map((img_l) => (
+                  <div
+                    className={`cursor-pointer box-border border-[0.5px] p-2 ${
+                      img_l === bigImage ? "border-blue-500" : ""
+                    }`}
+                    onClick={() => setBigImage(img_l)}
+                    onMouseEnter={() => setBigImage(img_l)}
+                  >
+                    <Image
+                      src={img_l}
+                      height={300}
+                      width={400}
+                      className="h-10 w-10"
+                      // onClick={() => setBigImage(img_l)}
+                    />
+                  </div>
+                ))}
+              </div>
+            </div>
+            <div>
+              <div className="font-bold text-xl hidden sm:block">{title}</div>
+              <div className="flex flex-col justify-between">
+                <div className="box-border border-2">
+                  {Object.keys(reqDesc).map((item, index) => (
+                    <div
+                      key={index}
+                      className={`flex justify-between ${
+                        index % 2 == 0
+                          ? "bg-blue-300 text-white"
+                          : "bg-white text-black"
+                      }  p-2 m-auto`}
+                    >
+                      <div className="font-bold text-lg">{item}</div>
+                      <div className="text-sm">{desc[item]}</div>
+                    </div>
+                  ))}
+                </div>
+                <div className="bg-green-600 w-20 m-2 p-2 px-5 rounded-md items-center align-middle text-white cursor-pointer bottom-0">
+                  <AiOutlineWhatsApp size={30} color="white" />
+                </div>
+              </div>
+            </div>
           </div>
-          <div className="p-2 border-2">
-            <Image src={bigImage} height={300} width={400} className="h-96 p-5" />
-          </div>
-        </div> */}
-        {Object.keys(desc).map((item, index) => (
-          <div
-            key={index}
-            className={`flex justify-between ${
-              index % 2 == 0 ? "bg-blue-300 text-white" : "bg-white text-black"
-            }  p-4 m-auto`}
-          >
-            <div className="font-bold text-xl">{item}</div>
-            <div className="text-sm">{desc[item]}</div>
-          </div>
-        ))}
+          {Object.keys(desc).map((item, index) => (
+            <div
+              key={index}
+              className={`flex justify-between ${
+                index % 2 == 0
+                  ? "bg-blue-300 text-white"
+                  : "bg-white text-black"
+              }  p-4 m-auto`}
+            >
+              <div className="font-bold text-xl">{item}</div>
+              <div className="text-sm">{desc[item]}</div>
+            </div>
+          ))}
+        </div>
       </div>
     </>
   );
