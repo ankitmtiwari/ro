@@ -13,7 +13,6 @@ import { FaBars, FaBarsStaggered } from "react-icons/fa";
 import Link from "next/link";
 
 function Header() {
-
   const [nav, setNav] = useState(false);
 
   const handleNav = () => {
@@ -26,13 +25,16 @@ function Header() {
   // const logo= "https://res.cloudinary.com/da5scjnwh/image/upload/v1697369204/RO-IMAGES/xvfohueml2tyr1ricdqg.png";
   // const logo= "https://res.cloudinary.com/da5scjnwh/image/upload/v1697386886/RO-IMAGES/yvrquerwywwkljyfyha3.png";
   // const logo="https://res.cloudinary.com/da5scjnwh/image/upload/v1697387088/RO-IMAGES/chg1zpfyeac5tal4u7a7.png";
-  const logo="https://res.cloudinary.com/da5scjnwh/image/upload/v1697387180/RO-IMAGES/vczuhhoylibdult5i08s.png";
-
+  const logo =
+    "https://res.cloudinary.com/da5scjnwh/image/upload/v1697387180/RO-IMAGES/vczuhhoylibdult5i08s.png";
 
   return (
     <>
       {/* for laptop and big size */}
-      <div id="header" className="hidden sm:block z-50 bg-[#00A8FF] w-full  h-28 relative">
+      <div
+        id="header"
+        className="hidden sm:block z-50 bg-[#00A8FF] w-full  h-28 relative"
+      >
         <div className=" sm:mx-36 pt-4">
           <div className="flex flex-col sm:flex-row items-center sm:justify-between">
             <div className="sm:flex  align-middle items-center sm:gap-10">
@@ -74,11 +76,12 @@ function Header() {
           </div>
         </div>
         <div className="sm:absolute w-full sm:top-14">
-          <div className=" bg-white lg:mx-36 px-1 py-2 sm:px-7 sm:py-5  rounded-lg ">
+          <div className=" bg-white lg:mx-36 px-1 py-2 sm:px-7 sm:py-5  rounded-lg border-b-slate-300 border-b-2">
             <div className="flex justify-between align-middle items-center">
               <div>
                 <Image
-                  src={logo
+                  src={
+                    logo
                     // "https://res.cloudinary.com/da5scjnwh/image/upload/v1696169160/RO-IMAGES/fjfigtpm4zmrgb4hiou4.png"
                     // "https://res.cloudinary.com/da5scjnwh/image/upload/v1697366973/RO-IMAGES/hvqv0jdwlksxypai5zkp.jpg"
                     // "https://res.cloudinary.com/da5scjnwh/image/upload/v1697367238/RO-IMAGES/pzpu8fovkvua1rlfj6i4.jpg"
@@ -91,32 +94,37 @@ function Header() {
               </div>
               <div className="sm:block hidden ">
                 <div className="flex align-middle items-center gap-8 ">
-                  <Link href={"#"}>
+                  <Link href={"/#"}>
                     <div className="hover:text-[#00ABFF] text-lg font-medium cursor-pointer">
                       Home
                     </div>
                   </Link>
-                  <Link href={"#whatwedo"}>
-                    <div className="hover:text-[#00ABFF] text-lg font-medium cursor-pointer">
-                      About
-                    </div>
-                  </Link>
-                  <Link href={"#offeredServices"}>
-                    <div className="hover:text-[#00ABFF] text-lg font-medium cursor-pointer">
-                      Services
-                    </div>
-                  </Link>
-                  <Link href={"#home_products"}>
+                  <Link href={"/#home_products"}>
                     <div className="hover:text-[#00ABFF] text-lg font-medium cursor-pointer">
                       Products
                     </div>
                   </Link>
-                  <Link href={"#footer"}>
+                  <Link href={"/#whatwedo"}>
+                    <div className="hover:text-[#00ABFF] text-lg font-medium cursor-pointer">
+                      Services
+                    </div>
+                  </Link>
+                  <Link href={"/about"}>
+                    <div className="hover:text-[#00ABFF] text-lg font-medium cursor-pointer">
+                      About
+                    </div>
+                  </Link>
+                  <Link href={"/#why_us"}>
+                    <div className="hover:text-[#00ABFF] text-lg font-medium cursor-pointer">
+                      Why Us
+                    </div>
+                  </Link>
+                  <Link href={"/#footer"}>
                     <div className="hover:text-[#00ABFF] text-lg font-medium cursor-pointer">
                       Contacts
                     </div>
                   </Link>
-                  <Link href={"#articles"}>
+                  <Link href={"/#articles"}>
                     <div className="hover:text-[#00ABFF] text-lg font-medium cursor-pointer">
                       Blogs
                     </div>
@@ -132,7 +140,10 @@ function Header() {
       </div>
       {/* for mobile and small size */}
       {/* <div className="block sm:hiddw-full sm:top-14 bock sm:hidden"> */}
-      <div id="header" className="block sm:hidden top-0 sticky left-0 z-20  w-full border-b-slate-300 border-b-2 rounded-b-lg">
+      <div
+        id="header"
+        className="block sm:hidden top-0 sticky left-0 z-20  w-full border-b-slate-300 border-b-2 rounded-b-lg"
+      >
         <div className="bg-white lg:mx-36 px-1 py-2 sm:px-7 sm:py-5  rounded-b-lg ">
           <div className="flex justify-between align-middle items-center">
             <div>
@@ -173,33 +184,37 @@ function Header() {
               </div>
             </div>
             <div className="flex flex-col ml-3 mt-5  text-white gap-8 ">
-              <Link href={"#header"} onClick={handleNav}>
+              <Link href={"/#"} onClick={handleNav}>
                 <div className="hover:text-[#00ABFF] text-lg font-medium cursor-pointer border-b border-gray-600">
                   Home
                 </div>
               </Link>
-              <Link href={"#offeredServices"} onClick={handleNav}>
-                <div className="hover:text-[#00ABFF] text-lg font-medium cursor-pointer border-b border-gray-600">
-                  About
-                </div>
-              </Link>
-              <Link href={"/"} onClick={handleNav}>
-                <div className="hover:text-[#00ABFF] text-lg font-medium cursor-pointer border-b border-gray-600">
-                  Services
-                </div>
-              </Link>
-
-              <Link href={"#home_products"} onClick={handleNav}>
+              <Link href={"/#home_products"} onClick={handleNav}>
                 <div className="hover:text-[#00ABFF] text-lg font-medium cursor-pointer border-b border-gray-600">
                   Products
                 </div>
               </Link>
-              <Link href={"#footer"} onClick={handleNav}>
+              <Link href={"/#whatwedo"} onClick={handleNav}>
+                <div className="hover:text-[#00ABFF] text-lg font-medium cursor-pointer border-b border-gray-600">
+                  Services
+                </div>
+              </Link>
+              <Link href={"/about"} onClick={handleNav}>
+                <div className="hover:text-[#00ABFF] text-lg font-medium cursor-pointer border-b border-gray-600">
+                  About
+                </div>
+              </Link>
+              <Link href={"/#why_us"} onClick={handleNav}>
+                <div className="hover:text-[#00ABFF] text-lg font-medium cursor-pointer border-b border-gray-600">
+                  Why Us
+                </div>
+              </Link>
+              <Link href={"/#footer"} onClick={handleNav}>
                 <div className="hover:text-[#00ABFF] text-lg font-medium cursor-pointer border-b border-gray-600 ">
                   Contacts
                 </div>
               </Link>
-              <Link href={"#articles"} onClick={handleNav}>
+              <Link href={"/#articles"} onClick={handleNav}>
                 <div className="hover:text-[#00ABFF] text-lg font-medium cursor-pointer">
                   Blogs
                 </div>

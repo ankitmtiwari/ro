@@ -1,22 +1,24 @@
 import React from "react";
 import Image from "next/image";
+const dj = [{ name: "hdghgf" }, { name: "atul" }];
 
-function Offered_solutions_card(props) {
+function Why_us_card(props) {
   return (
     <>
       <div className="offer_parent bg-white ">
         <div className=" w-fit p-5 mx-auto  ">
-          <div className="bg-[#00A8FF] p-11 rounded-full">
+          <div className=" p-11 rounded-full">
             <Image
               src={
-                "https://res.cloudinary.com/da5scjnwh/image/upload/v1696516749/RO-IMAGES/gluiaeowfz2y57hxfsci.png"
+                props.img
+                // "https://res.cloudinary.com/da5scjnwh/image/upload/v1697897022/RO-IMAGES/flfkbmodshejlkhkojm9.png"
               }
               // objectFit="contain "
               // layout="fixed"
               //   fill={true}
               width={100}
               height={100}
-              className="h-24 w-24 mx-auto rounded-full "
+              className="h-40 w-40 mx-auto object-fill"
             />
             {/* <img
               alt="Burger"
@@ -32,8 +34,13 @@ function Offered_solutions_card(props) {
           <div className="text-md line-clamp-3 px-8">{props.desc}</div>
         </div>
       </div>
+      {/* <div>
+        {dj.map((item, index) => (
+          <div>{str(item.name.charAt(0).toUpperCase()}</div>
+        ))}
+      </div> */}
     </>
   );
 }
 
-export default Offered_solutions_card;
+export default Why_us_card;
