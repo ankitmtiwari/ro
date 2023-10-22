@@ -13,7 +13,7 @@ function Fixed_footer() {
     <>
       <div className="block sm:hidden sticky bottom-0 left-0 z-20 border-t border-gray-200 w-full shadow">
         <div className="bg-[#00A8FF] flex justify-around align-middle items-center">
-          <Link href={`tel:+91${call}`}>
+          <Link href={`tel:+91${call}`} target="new">
             <div className="flex flex-col items-center align-middle font-semibold text-white p-2">
               <div>
                 <BsTelephone color="white p-2" size={22} />
@@ -21,7 +21,7 @@ function Fixed_footer() {
               <div>Call us</div>
             </div>
           </Link>
-          <Link href={`mailto:${email}}`}>
+          <Link href={`mailto:${email}}`} target="new">
             <div className="flex flex-col  items-center align-middle font-semibold text-white p-2">
               <div>
                 <TfiEmail color="white" size={22} />
@@ -29,7 +29,7 @@ function Fixed_footer() {
               <div>Email us</div>
             </div>
           </Link>
-          <Link href={`https://wa.me/${whatsapp}`}>
+          <Link href={`https://wa.me/${whatsapp}`} target="new">
             <div className="flex flex-col items-center align-middle font-semibold text-white p-2">
               <div>
                 <AiOutlineWhatsApp color="white" size={22} />

@@ -38,7 +38,7 @@ function Header() {
         <div className=" sm:mx-36 pt-4">
           <div className="flex flex-col sm:flex-row items-center sm:justify-between">
             <div className="sm:flex  align-middle items-center sm:gap-10">
-              <Link href={`https://api.whatsapp.com/send/?phone=${whatsapp}`}>
+              <Link href={`https://api.whatsapp.com/send/?phone=${whatsapp}`} target="new">
                 <div className="cursor-pointer flex sm:justify-between align-middle items-center gap-2 p-1 sm:p-0">
                   <div>
                     {/* <BsTelephone color="white" size={22} /> */}
@@ -49,7 +49,7 @@ function Header() {
                   </div>
                 </div>
               </Link>
-              <Link href={`mailto:${email}`}>
+              <Link href={`mailto:${email}`}  target="new">
                 <div className="cursor-pointer flex sm:justify-between p-1 sm:p-0 align-middle items-center gap-2">
                   <div>
                     <TfiEmail color="white" size={22} />

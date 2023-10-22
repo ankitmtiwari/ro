@@ -1,18 +1,21 @@
-import React from 'react'
+import React from "react";
 import { AiFillInstagram, AiTwotoneMail } from "react-icons/ai";
 import { BsTelephoneFill, BsTwitter } from "react-icons/bs";
 import { GoLocation } from "react-icons/go";
 import { GrMail, GrMailOption } from "react-icons/gr";
 import { HiOutlineLocationMarker } from "react-icons/hi";
 import { TbCalendarEvent } from "react-icons/tb";
+import Link from "next/link";
+
 function Footer() {
   // const logo= "https://res.cloudinary.com/da5scjnwh/image/upload/v1697369204/RO-IMAGES/xvfohueml2tyr1ricdqg.png";
-  const logo= "https://res.cloudinary.com/da5scjnwh/image/upload/v1697386886/RO-IMAGES/yvrquerwywwkljyfyha3.png";
+  const logo =
+    "https://res.cloudinary.com/da5scjnwh/image/upload/v1697386886/RO-IMAGES/yvrquerwywwkljyfyha3.png";
 
   return (
-   <>
-    <div
-    id='footer'
+    <>
+      <div
+        id="footer"
         className="relative  w-full h-full bg-cover bg-top lg:overflow-x-hidden"
         style={{
           backgroundImage:
@@ -20,16 +23,20 @@ function Footer() {
         }}
       >
         <div className="py-16 ">
-          <div className=" text-white bg-[rgba(255,255,255,0.1)] mt-10 mx-5 lg:mx-16 py-14">
+          {/* <div className=" text-white bg-[rgba(255,255,255,0.1)] mt-10 mx-5 lg:mx-16 py-14">
             <div className="flex flex-col lg:flex-row justify-between align-middle items-center mx-2 lg:mx-10 ">
-              <h1 className="text-[2rem] lg:text-[2.5rem] pb-4 lg:pb-0 text-center">Getting Confused !!</h1>
-              <h1 className="text-[1rem] lg:text-[1.5rem] pb-4 lg:pb-0 text-center">While selecting safest water purifier for your family</h1>
+              <h1 className="text-[2rem] lg:text-[2.5rem] pb-4 lg:pb-0 text-center">
+                Getting Confused !!
+              </h1>
+              <h1 className="text-[1rem] lg:text-[1.5rem] pb-4 lg:pb-0 text-center">
+                While selecting safest water purifier for your family
+              </h1>
               <div className="border px-5 py-3 border-[#01cab8] hover:bg-[#01cab8] hover:text-white flex justify-between align-middle items-center gap-4">
                 <TbCalendarEvent size={22} color="" className="" />
                 <h1>Schedule meeting</h1>
               </div>
             </div>
-          </div>
+          </div> */}
 
           <div className="grid grid-cols-1 lg:grid-cols-4 text-white py-10 mx-5 lg:mx-16 gap-5">
             <div className="col-span-1">
@@ -41,42 +48,45 @@ function Footer() {
                 clients through new and often disruptive realities.
               </div>
             </div>
-            <div className="col-span-1">
-              <h1 className="mb-4 text-[1rem] font-[500]">Services</h1>
-              <h1 className="text-[13px] font-[400] hover:text-gray-400 pb-0.5 cursor-pointer">
-                Water Purifier Servicing
-              </h1>
-              <h1 className="text-[13px] font-[400] hover:text-gray-400 pb-0.5 cursor-pointer">
-                A.C. Servicing
-              </h1>
-              {/* <h1 className="text-[13px] font-[400] hover:text-gray-400 pb-0.5 cursor-pointer">
+            <div className="flex flex-row sm:flex-col justify-between ">
+              <div className="col-span-1">
+                <h1 className="mb-4 text-[1rem] font-[500]">Services</h1>
+                <h1 className="text-[13px] font-[400] hover:text-gray-400 pb-0.5 cursor-pointer">
+                  Water Purifier Servicing
+                </h1>
+                <h1 className="text-[13px] font-[400] hover:text-gray-400 pb-0.5 cursor-pointer">
+                  A.C. Servicing
+                </h1>
+                {/* <h1 className="text-[13px] font-[400] hover:text-gray-400 pb-0.5 cursor-pointer">
                 Fridge Servicing
               </h1> */}
-              <h1 className="text-[13px] font-[400] hover:text-gray-400 pb-0.5 cursor-pointer">
-                Washing Machine Servicing
-              </h1>
-              {/* <h1 className="text-[13px] font-[400] hover:text-gray-400 pb-0.5 cursor-pointer">
+                <h1 className="text-[13px] font-[400] hover:text-gray-400 pb-0.5 cursor-pointer">
+                  Washing Machine Servicing
+                </h1>
+                {/* <h1 className="text-[13px] font-[400] hover:text-gray-400 pb-0.5 cursor-pointer">
                 Investor Presentation
               </h1> */}
+              </div>
+              <div className="col-span-1">
+                <h1 className="mb-4 text-[1rem] font-[500]">Products</h1>
+                <h1 className="text-[13px] font-[400] hover:text-gray-400 pb-0.5">
+                  Kent RO
+                </h1>
+                <h1 className="text-[13px] font-[400] hover:text-gray-400 pb-0.5">
+                  Aquaguad
+                </h1>
+                <h1 className="text-[13px] font-[400] hover:text-gray-400 pb-0.5">
+                  Havells Aquas
+                </h1>
+                <h1 className="text-[13px] font-[400] hover:text-gray-400 pb-0.5">
+                  Aqua Fresh
+                </h1>
+                <h1 className="text-[13px] font-[400] hover:text-gray-400 pb-0.5">
+                  Livpure
+                </h1>
+              </div>
             </div>
-            <div className="col-span-1">
-              <h1 className="mb-4 text-[1rem] font-[500]">Products</h1>
-              <h1 className="text-[13px] font-[400] hover:text-gray-400 pb-0.5">
-                Kent RO
-              </h1>
-              <h1 className="text-[13px] font-[400] hover:text-gray-400 pb-0.5">
-                Aquaguad 
-              </h1>
-              <h1 className="text-[13px] font-[400] hover:text-gray-400 pb-0.5">
-                Havells Aquas
-              </h1>
-              <h1 className="text-[13px] font-[400] hover:text-gray-400 pb-0.5">
-                Aqua Fresh
-              </h1>
-              <h1 className="text-[13px] font-[400] hover:text-gray-400 pb-0.5">
-              Livpure
-              </h1>
-            </div>
+
             <div className="col-span-1">
               <h1 className="mb-4 text-[1rem] font-[500]">Connect</h1>
               <div>
@@ -123,14 +133,14 @@ function Footer() {
                 <div>
                   <div className="flex justify-start align-middle items-center gap-2 pb-0.5">
                     <BsTelephoneFill size={12} />
-                    <div className="text-[13px] font-[400]">1-800-1-900</div>
+                    <div className="text-[13px] font-[400]">+918655475886</div>
                   </div>
                 </div>
                 <div>
                   <div className="flex justify-start align-middle items-center gap-2 pb-0.5">
                     <GrMail size={12} />
                     <div className="text-[13px] font-[400]">
-                      dev.ankit.tiwari@gmail.com
+                      devrajpathak093@gmail.com
                     </div>
                   </div>
                 </div>
@@ -148,21 +158,53 @@ function Footer() {
 
           <div className="text-white flex flex-col lg:flex-row justify-start lg:justify-between lg:align-middle lg:items-center border-t border-white mx-5 lg:mx-16 pt-3 lg:pt-7 lg:gap-0 gap-3 ">
             <div className="text-[13px] font-[400]  ">
-              ©2023 Ankit. All rights reserved
+              ©2023 Aardhya Aqua Solutions. All rights reserved
             </div>
-            <div className="flex  justify-start lg:justify-between align-middle items-center gap-5 lg:gap-10 lg:mr-20">
-              <div className="text-[13px] font-[400] hover:text-gray-400  cursor-pointer">
-                {/* Privacy Policy{" "} */}
-              </div>
-              <div className="text-[13px] font-[400] hover:text-gray-400  cursor-pointer">
-                {/* Cookie Policy */}
+            <div className="  justify-start lg:justify-between align-middle items-center gap-5 lg:gap-10 lg:mr-20">
+              <Link
+                href={"https://www.linkedin.com/in/ankitmtiwari/"}
+                target="new"
+              >
+                <div className="text-[13px] font-[400] hover:text-gray-400  cursor-pointer m-1">
+                  Developed and Maintained By Ankit Tiwari
+                </div>
+              </Link>
+              <div className="flex gap-5">
+                <Link
+                  href={"tel:+918104264836"}
+                  target="new"
+                  className="box-border border-2 rounded-md"
+                >
+                  <div className="text-[13px] font-[400] hover:bg-blue-400 rounded-md cursor-pointer py-1 px-2">
+                    Call
+                  </div>
+                </Link>
+                <Link
+                  href={"https://api.whatsapp.com/send/?phone=7506145272"}
+                  target="new"
+                  className="box-border border-2 rounded-md"
+                >
+                  <div className="text-[13px] font-[400]  hover:bg-green-600 rounded-md  cursor-pointer py-1 px-2">
+                    Whatsapp
+                  </div>
+                </Link>
+
+                <Link
+                  href={"mailto:tankit291389@gmail.com"}
+                  target="new"
+                  className="box-border border-2 rounded-md"
+                >
+                  <div className="text-[13px] font-[400] hover:bg-blue-400 rounded-md cursor-pointer py-1 px-2">
+                    Mail
+                  </div>
+                </Link>
               </div>
             </div>
           </div>
         </div>
       </div>
     </>
-  )
+  );
 }
 
-export default Footer
+export default Footer;
