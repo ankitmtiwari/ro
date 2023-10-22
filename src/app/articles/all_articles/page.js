@@ -6,7 +6,7 @@ const page = () => {
     <>
       <div id="articles" className="bg-[#F4FAFE] ">
         <div className="text-center py-10">
-          <div className="text-black lg:max-w-2xl mx-5 lg:mx-auto text-3xl lg:text-5xl font-extrabold">
+          <div className="text-black lg:max-w-2xl m-5 lg:mx-auto text-3xl lg:text-5xl font-extrabold">
             All Articles
           </div>
         </div>

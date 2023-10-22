@@ -19,6 +19,7 @@ function page({ params }) {
       title:
         "KENT Ace 8 L RO + UV + UF + TDS Water Purifier with Mineral ROTM Technology,In-tank UV Disinfection",
       required_desc: {
+        Brand: "KENT",
         Model_Name: "abc23",
         Series: "a-23",
         Color: "wHITE",
@@ -82,6 +83,8 @@ function page({ params }) {
       title:
         "LIVPURE LIV-PEP-PRO-STAR. 7 L RO + UV + UF + Minerals Water Purifier",
       required_desc: {
+        Brand: "LIVPURE",
+
         Model_Name: "abc23",
         Series: "a-23",
         Color: "wHITE",
@@ -145,6 +148,8 @@ function page({ params }) {
       title:
         "Aqua Fresh Opel copper 18 ltr+copper filter 18 L RO + UV + UF + Copper + TDS Control Water Purifier with Prefilter",
       required_desc: {
+        Brand: "AQUA FRESH",
+
         Model_Name: "abc23",
         Series: "a-23",
         Color: "wHITE",
@@ -208,6 +213,7 @@ function page({ params }) {
       title:
         "Aqua Fresh Omega Audy+Ro+Uv+Uf+Tds+mineral 12 L RO + UV + UF + TDS Water Purifier with Prefilter",
       required_desc: {
+        Brand: "AQUA FRESH",
         Model_Name: "abc23",
         Series: "a-23",
         Color: "wHITE",
@@ -311,27 +317,18 @@ function page({ params }) {
                 <div key={index} className="p-2">
                   <div className="flex justify-start ">
                     <div className="font-bold text-lg w-64">{item} :</div>
-                    <div className="text-lg w-30">{desc[item]}</div>
+                    <div className="text-lg w-30">{reqDesc[item]}</div>
                   </div>
                 </div>
               ))}
             </div>
-            <div>
-              {/* <div className="flex justify-around p-2">
-                <div className="bg-green-600 w-20 mx-auto p-2 px-5 rounded-md items-center align-middle text-white cursor-pointer bottom-0">
-                  <div>
-                    <AiOutlineWhatsApp size={30} color="white" />
-                  </div>
-                </div>
-                <div className="bg-blue-600 w-20 mx-auto p-2 px-5 rounded-md items-center align-middle text-white cursor-pointer bottom-0">
-                  <IoCallOutline size={30} color="white" />
-                </div>
-              </div> */}
-            </div>
+            <div></div>
           </div>
         </div>
         <div className="py-3">
-          <div className="text-xl my-2 font-semibold">Description/Features:</div>
+          <div className="text-xl my-2 font-semibold">
+            Description/Features:
+          </div>
           <div className="mb-1">
             {Object.keys(desc).map((item, index) => (
               <div

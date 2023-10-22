@@ -79,22 +79,24 @@ function Header() {
           <div className=" bg-white lg:mx-36 px-1 py-2 sm:px-7 sm:py-5  rounded-lg border-b-slate-300 border-b-2">
             <div className="flex justify-between align-middle items-center">
               <div>
-                <Image
-                  src={
-                    logo
-                    // "https://res.cloudinary.com/da5scjnwh/image/upload/v1696169160/RO-IMAGES/fjfigtpm4zmrgb4hiou4.png"
-                    // "https://res.cloudinary.com/da5scjnwh/image/upload/v1697366973/RO-IMAGES/hvqv0jdwlksxypai5zkp.jpg"
-                    // "https://res.cloudinary.com/da5scjnwh/image/upload/v1697367238/RO-IMAGES/pzpu8fovkvua1rlfj6i4.jpg"
-                    // "https://res.cloudinary.com/da5scjnwh/image/upload/v1697367379/RO-IMAGES/cmutw27fbgwvlvsj5yfx.png"
-                    // "https://www.canva.com/design/DAFxUiL0GLE/_b_uGDd-Ztfg_LDsAsPSgQ/edit?utm_content=DAFxUiL0GLE&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
-                  }
-                  width={100}
-                  height={100}
-                />
+                <Link href={"/"}>
+                  <Image
+                    src={
+                      logo
+                      // "https://res.cloudinary.com/da5scjnwh/image/upload/v1696169160/RO-IMAGES/fjfigtpm4zmrgb4hiou4.png"
+                      // "https://res.cloudinary.com/da5scjnwh/image/upload/v1697366973/RO-IMAGES/hvqv0jdwlksxypai5zkp.jpg"
+                      // "https://res.cloudinary.com/da5scjnwh/image/upload/v1697367238/RO-IMAGES/pzpu8fovkvua1rlfj6i4.jpg"
+                      // "https://res.cloudinary.com/da5scjnwh/image/upload/v1697367379/RO-IMAGES/cmutw27fbgwvlvsj5yfx.png"
+                      // "https://www.canva.com/design/DAFxUiL0GLE/_b_uGDd-Ztfg_LDsAsPSgQ/edit?utm_content=DAFxUiL0GLE&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
+                    }
+                    width={100}
+                    height={100}
+                  />
+                </Link>
               </div>
               <div className="sm:block hidden ">
                 <div className="flex align-middle items-center gap-8 ">
-                  <Link href={"/#"}>
+                  <Link href={"/"}>
                     <div className="hover:text-[#00ABFF] text-lg font-medium cursor-pointer">
                       Home
                     </div>
@@ -147,14 +149,16 @@ function Header() {
         <div className="bg-white lg:mx-36 px-1 py-2 sm:px-7 sm:py-5  rounded-b-lg ">
           <div className="flex justify-between align-middle items-center">
             <div>
-              <Image
-                src={
-                  logo
-                  // "https://res.cloudinary.com/da5scjnwh/image/upload/v1696169160/RO-IMAGES/fjfigtpm4zmrgb4hiou4.png"
-                }
-                width={90}
-                height={90}
-              />
+              <Link href={"/"}>
+                <Image
+                  src={
+                    logo
+                    // "https://res.cloudinary.com/da5scjnwh/image/upload/v1696169160/RO-IMAGES/fjfigtpm4zmrgb4hiou4.png"
+                  }
+                  width={90}
+                  height={90}
+                />
+              </Link>
             </div>
             <div className="sm:hidden block p-1" onClick={handleNav}>
               {!nav ? <FaBars size={20} /> : ""}
@@ -184,7 +188,7 @@ function Header() {
               </div>
             </div>
             <div className="flex flex-col ml-3 mt-5  text-white gap-8 ">
-              <Link href={"/#"} onClick={handleNav}>
+              <Link href={"/"} onClick={handleNav}>
                 <div className="hover:text-[#00ABFF] text-lg font-medium cursor-pointer border-b border-gray-600">
                   Home
                 </div>

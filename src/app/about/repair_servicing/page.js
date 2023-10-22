@@ -1,7 +1,6 @@
 import React from "react";
 import Image from "next/image";
-
-const About_us = () => {
+const Repair_servicing = () => {
   const img = "/about_us_1.png";
   return (
     <>
@@ -74,18 +73,7 @@ const About_us = () => {
             <p className="leading-7">
               <b>Why Choose Us:</b> <br />
               <li>
-                Brand Diversity: We offer a wide selection of leading RO water
-                purifier brands to cater to your unique needs, ensuring you
-                don't have to search for a "Water Purifier Dealer in Basti" or
-                "RO Water purifier in Siddhartnagar" elsewhere.
-              </li>
-              <li>
-                Kent Expertise: Our Kent Authorized Service Center status
-                ensures expert service for Kent RO systems, whether you're in
-                Basti or seeking a "Kent RO Service Center near Basti."
-              </li>
-              <li>
-                Authorized Dealer: We are an authorized dealer for [KENT RO],
+                Authorized Dealer: We are an authorized dealer for KENT RO,
                 offering their latest and most advanced water purification
                 systems.
               </li>
@@ -110,4 +98,4 @@ const About_us = () => {
   );
 };
 
-export default About_us;
+export default Repair_servicing;

@@ -89,7 +89,7 @@ function All_brands_card() {
                           // objectFit="contain"
                           height={100}
                           width={100}
-                          className=" h-200 w-200"
+                          className=" h-24 w-24"
                           alt="logo img"
                         />
                       </div>
