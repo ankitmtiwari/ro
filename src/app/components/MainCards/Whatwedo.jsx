@@ -18,7 +18,7 @@ function Whatwedo() {
             goto="/about/new_purifier"
             // name="New Water Purifier"
             // link="https://res.cloudinary.com/da5scjnwh/image/upload/v1696673605/RO-IMAGES/ttex8xbfqlp2netfxxrb.jpg"
-            img="/new_water_purifier.png"
+            img="/new_water_purifier_home_page.png"
           />
           <Whatwedo_card
             goto="/about/repair_servicing"
@@ -27,10 +27,10 @@ function Whatwedo() {
             img="/kent_ro_service.jpg"
           />
           <Whatwedo_card
-            goto="/about/new_purifier"
+            goto="/about/ac_washing_machine_servicing"
             // name="AC & Fridge Servicing"
             // link="https://res.cloudinary.com/da5scjnwh/image/upload/v1696673604/RO-IMAGES/j3i3dir3vyohokjxlr5n.jpg"
-            img="/ac_fridge_service.png"
+            img="/ac.png"
           />
         </div>
       </div>

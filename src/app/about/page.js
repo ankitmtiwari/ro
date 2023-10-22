@@ -90,6 +90,11 @@ const About_us = () => {
                 systems.
               </li>
               <li>
+                Competitive Pricing: Aardhya Aqua Solutions offers
+                market-competitive prices, ensuring quality without the premium
+                cost, ranking us high among "RO dealers in Uttar Pradesh."
+              </li>
+              <li>
                 Service Excellence: Our KENT Authorized Service Center provides
                 top-notch service and support to ensure your water purifier
                 operates flawlessly.
@@ -102,6 +107,15 @@ const About_us = () => {
                 Customer-Centric: We prioritize your satisfaction and will go
                 the extra mile to make sure you are delighted with our services.
               </li>
+            </p>
+            <p className="leading-7">
+              <b>Contact Us:</b> <br />
+              Ready to experience the benefits of pure and safe drinking water?
+              Connect with us today at [+918655475886] and let us guide you to
+              the perfect RO water purifier for your home or business. Join the
+              Aardhya Aqua Solutions family, where we're transforming clean
+              water into a reality for every household in Uttar Pradesh, no
+              matter where you're located.
             </p>
           </div>
         </div>
