@@ -6,11 +6,11 @@ function Whatwedo_card(props) {
   return (
     <>
       <div className=" bg-white rounded-md mt-2 ">
-        <div className="w-full relative  ">
+        <div className="w-full relative mx-auto">
           {/* <div className="w-full opacity-80 hover:opacity-100 duration-200"> */}
           <div className="w-full ">
             <Image
-              className="rounded-md h-96 w-96"
+              className="rounded-md h-96 w-96 m-auto"
               src={props.img}
               height={400}
               width={400}

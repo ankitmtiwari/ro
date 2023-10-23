@@ -13,8 +13,8 @@ const New_purifier = () => {
           </div>
         </div>
         <div>
-          <div className="sm:flex sm:flex-row  p-2 m-2">
-            <div className="rounded-md sm:w-[50%] hover:scale-95 transition duration-500 cursor-pointer">
+          <div className="md:flex ms:flex-row  gap-10 p-2 m-2">
+            <div className="rounded-md md:w-[50%] lg:w-fit hover:scale-95 transition duration-500 cursor-pointer">
               <Image
                 src={img}
                 width={600}
@@ -22,24 +22,26 @@ const New_purifier = () => {
                 className="rounded-md"
               />
             </div>
-            <div className=" sm:w-[50%] text-lg">
+            <div className=" md:w-[50%] lg:w-fit text-lg">
               <h1 className="text-xl font-medium">
                 Aardhya Aqua Solutions- Your Trusted Water Purifier Dealer
               </h1>
               <p className="leading-7">
-                <br/><b>Who We Are:</b>
-                <br /> <br />Welcome to Aardhya Aqua Solutions, your dedicated partner
-                for a healthier life through pure and safe drinking water.
-                Operating from Basti District, Uttar Pradesh, we're not just
-                your local RO water purifier dealer but also an Authorized
-                Service Center for Kent RO systems. Our mission is to make clean
-                water accessible to every home and business in Uttar Pradesh,
-                ensuring that we rank highly in your search for "RO dealer in
-                Uttar Pradesh."
+                <br />
+                <b>Who We Are:</b>
+                <br /> <br />
+                Welcome to Aardhya Aqua Solutions, your dedicated partner for a
+                healthier life through pure and safe drinking water. Operating
+                from Basti District, Uttar Pradesh, we're not just your local RO
+                water purifier dealer but also an Authorized Service Center for
+                Kent RO systems. Our mission is to make clean water accessible
+                to every home and business in Uttar Pradesh, ensuring that we
+                rank highly in your search for "RO dealer in Uttar Pradesh."
               </p>
-              <p className="leading-7">
-              <br /> <b>Our Offerings:</b>
-                <br /><br />
+              <p className="leading-7 md:hidden">
+                <br /> <b>Our Offerings:</b>
+                <br />
+                <br />
                 At Aardhya Aqua Solutions, we're committed to providing you with
                 the best in water purification technology. We proudly partner
                 with renowned RO water purifier brands, including KENT RO,
@@ -51,8 +53,23 @@ const New_purifier = () => {
             </div>
           </div>
           <div className="p-2 m-2  text-lg">
+            <p className="leading-7 md:block">
+              <br /> <b>Our Offerings:</b>
+              <br />
+              <br />
+              At Aardhya Aqua Solutions, we're committed to providing you with
+              the best in water purification technology. We proudly partner with
+              renowned RO water purifier brands, including KENT RO, LIVPURE,
+              AQUA GUARD, AQUA FRESH, HAVELS, AQUA VENUS, and more. Our diverse
+              range of options ensures you have access to the industry's leading
+              water purification solutions, making us your top choice as a
+              "Water Purifier Dealer in Basti."
+            </p>
             <p className="leading-7">
-            <br /> <br/><b>Our Commitment:</b> <br /><br/><br />
+              <br /> <br />
+              <b>Our Commitment:</b> <br />
+              <br />
+              <br />
               At Aardhya Aqua Solutions, we believe that safe drinking water
               shouldn't come at an exorbitant cost, ranking us among the best
               choices for "Water purifier best dealer in UP." We take pride in
@@ -62,7 +79,9 @@ const New_purifier = () => {
               wherever you are in Uttar Pradesh.
             </p>
             <p className="leading-7">
-            <br /><b>Kent Authorized Service Center:</b><br />
+              <br />
+              <b>Kent Authorized Service Center:</b>
+              <br />
               <br />
               As a Kent Authorized Service Center, we are deeply invested in
               delivering excellence. Our affiliation with Kent RO systems
@@ -75,7 +94,9 @@ const New_purifier = () => {
               Siddharthnagar."
             </p>
             <p className="leading-7">
-            <br /><b>After-Sale Service:</b><br />
+              <br />
+              <b>After-Sale Service:</b>
+              <br />
               <br /> Our commitment extends beyond the sale, making us the
               preferred option for "Water purifier best service in Basti." We
               offer exceptional after-sale service to ensure your RO system
@@ -85,14 +106,17 @@ const New_purifier = () => {
               no matter where you're located in Uttar Pradesh.
             </p>
             <p className="leading-7">
-            <br /><b>Our Team:</b> <br /><br />
+              <br />
+              <b>Our Team:</b> <br />
+              <br />
               Our dedicated team consists of skilled technicians, water quality
               experts, and customer service professionals. With years of
               experience and a deep understanding of water purification, they
               are always ready to assist you with your water purification needs.
             </p>
             <p className="leading-7">
-            <br /> <b>Why Choose Us:</b> <br /><br />
+              <br /> <b>Why Choose Us:</b> <br />
+              <br />
               <li>
                 Authorized Dealer: We are an authorized dealer for [KENT RO],
                 offering their latest and most advanced water purification
@@ -131,7 +155,9 @@ const New_purifier = () => {
               </li>
             </p>
             <p className="leading-7">
-            <br /><b>Contact Us:</b> <br /><br />
+              <br />
+              <b>Contact Us:</b> <br />
+              <br />
               Ready to experience the benefits of pure and safe drinking water?
               Connect with us today at [+918655475886] and let us guide you to
               the perfect RO water purifier for your home or business. Join the
