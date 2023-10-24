@@ -48,7 +48,7 @@ function Footer() {
                 clients through new and often disruptive realities.
               </div>
             </div>
-            <div className="flex flex-row sm:flex-col justify-between ">
+            <div className="flex flex-row sm:flex-col justify-between gap-55555888555525885">
               <div className="col-span-1">
                 <h1 className="mb-4 text-[1rem] font-[500]">Services</h1>
                 <h1 className="text-[13px] font-[400] hover:text-gray-400 pb-0.5 cursor-pointer">
@@ -148,7 +148,7 @@ function Footer() {
                   <div className="flex justify-start align-middle items-center gap-2 pb-0.5">
                     <HiOutlineLocationMarker size={12} />
                     <div className="text-[13px] font-[400]">
-                      Basti, UttarPradesh
+                      Siddharth Nagar, UttarPradesh
                     </div>
                   </div>
                 </div>

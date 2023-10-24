@@ -1,8 +1,11 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
+import products from "@/app/all_prods";
 
 function Product_card(props) {
+  const img=products[props.pid].display_Image;
+  const name=products[props.pid].title 
   return (
     <>
       <Link href={`/products/${props.pid}`}>
@@ -10,7 +13,7 @@ function Product_card(props) {
           <div id="parent" className="parent mx-auto ">
             <div>
               <Image
-                src={props.img}
+                src={img}
                 width={300}
                 height={800}
                 className="p-2 sm:p-6 m-auto h-96"
@@ -22,7 +25,7 @@ function Product_card(props) {
                 id="child"
                 className="child title font-bold text-lg group-hover:opacity-0 line-clamp-2"
               >
-                {props.name}
+                {name}
               </div>
               {/* <div>${props.price}</div> */}
             </div>
@@ -32,7 +35,7 @@ function Product_card(props) {
                   id="child"
                   className="child title font-semibold text-lg  line-clamp-2 "
                 >
-                  {props.name}
+                  {name}
                 </div>
                 {/* <div>${props.price}</div> */}
               </div>

@@ -19,9 +19,6 @@ module.exports = {
       'lg': '1024px',
       // => @media (min-width: 1024px) { ... }
 
-    
-
-      
     },
   },
   plugins: [],
