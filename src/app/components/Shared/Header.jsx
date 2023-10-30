@@ -38,7 +38,10 @@ function Header() {
         <div className=" sm:mx-36 pt-4">
           <div className="flex flex-col sm:flex-row items-center sm:justify-between">
             <div className="sm:flex  align-middle items-center sm:gap-10">
-              <Link href={`https://api.whatsapp.com/send/?phone=${whatsapp}`} target="new">
+              <Link
+                href={`https://api.whatsapp.com/send/?phone=${whatsapp}`}
+                target="new"
+              >
                 <div className="cursor-pointer flex sm:justify-between align-middle items-center gap-2 p-1 sm:p-0">
                   <div>
                     {/* <BsTelephone color="white" size={22} /> */}
@@ -49,7 +52,7 @@ function Header() {
                   </div>
                 </div>
               </Link>
-              <Link href={`mailto:${email}`}  target="new">
+              <Link href={`mailto:${email}`} target="new">
                 <div className="cursor-pointer flex sm:justify-between p-1 sm:p-0 align-middle items-center gap-2">
                   <div>
                     <TfiEmail color="white" size={22} />
@@ -104,6 +107,11 @@ function Header() {
                   <Link href={"/#home_products"}>
                     <div className="hover:text-[#00ABFF] text-lg font-medium cursor-pointer">
                       Products
+                    </div>
+                  </Link>
+                  <Link href={"/products/brands"}>
+                    <div className="hover:text-[#00ABFF] text-lg font-medium cursor-pointer">
+                      Brands
                     </div>
                   </Link>
                   <Link href={"/#whatwedo"}>
@@ -196,6 +204,11 @@ function Header() {
               <Link href={"/#home_products"} onClick={handleNav}>
                 <div className="hover:text-[#00ABFF] text-lg font-medium cursor-pointer border-b border-gray-600">
                   Products
+                </div>
+              </Link>
+              <Link href={"/products/brands"} onClick={handleNav}>
+                <div className="hover:text-[#00ABFF] text-lg font-medium cursor-pointer border-b border-gray-600">
+                  Brands
                 </div>
               </Link>
               <Link href={"/#whatwedo"} onClick={handleNav}>

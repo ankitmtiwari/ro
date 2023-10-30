@@ -4,8 +4,12 @@ import Link from "next/link";
 import products from "@/app/all_prods";
 
 function Product_card(props) {
-  const img=products[props.pid].display_Image;
-  const name=products[props.pid].title 
+  let img="";
+  let name="";
+  if(props.pid in products){
+    img=products[props.pid].display_Image;
+    name=products[props.pid].title ;
+  }
   return (
     <>
       <Link href={`/products/${props.pid}`}>

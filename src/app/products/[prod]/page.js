@@ -3,6 +3,7 @@ import React from "react";
 import Image from "next/image";
 import { useState } from "react";
 import products from "@/app/all_prods";
+import Product_card from "@/app/components/Cards/Product_card";
 
 function page({ params }) {
   const current_prod = params.prod;
@@ -91,11 +92,22 @@ function page({ params }) {
                     : "bg-white text-black"
                 }  p-2 m-auto`}
               >
-                <div className="font-bold text-lg">{item.toUpperCase()} :</div>
-                <div className="text-lg">{desc[item]}</div>
+                <div className="font-bold text-base sm:text-lg">{item.toUpperCase()} :</div>
+                <div className="text-base sm:text-lg">{desc[item]}</div>
               </div>
             ))}
           </div>
+        </div>
+        <div>
+          <div className="text-2xl flex justify-center bg-gray-400 font-mono rounded-lg">
+            View Also
+          </div>
+        </div>
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-14 py-10 mx-5 lg:mx-36">
+          {/* <div className='grid grid-cols-4 gap-10 mx-36 py-5'> */}
+          <Product_card pid={(parseInt(current_prod) + 1) in products?parseInt(current_prod) + 1:1} />
+          <Product_card pid={(parseInt(current_prod) + 2) in products?parseInt(current_prod) + 2:2} />
+          <Product_card pid={(parseInt(current_prod) + 3) in products?parseInt(current_prod) + 3:3} />
         </div>
       </div>
     </>

@@ -294,7 +294,7 @@ const products = {
     title:
       "KENT Elegant Copper 8 L RO + UV + UF + TDS Control + UV in Tank + Copper Water Purifier",
     required_desc: {
-      Brand: "KENT",
+      Brand: "LIVPURE",
       Color: "White",
       Series: "Elegant Copper",
       "Model Name": "Elegant Copper",
@@ -339,7 +339,8 @@ const products = {
     title:
       "KENT Grand (11119) 8 L RO + UV + UF + TDS Control + UV in Tank Water Purifier",
     required_desc: {
-      Brand: "KENT",
+      // Brand: "KENT",
+      Brand: "AGR",
       Color: "White",
       Series: "Grand",
       "Model Name": "Grand (11119)",
@@ -395,4 +396,13 @@ const products = {
   },
 };
 
+// const all_ids=Object.keys(products)
+// var brands={};
+// {
+// all_ids.map((id,index)=>{
+//   brands[products[id].required_desc.Brand]='';
+// })
+// }
+// console.log(brands)
+// console.log(array.filter().at(1))
 export default products;
