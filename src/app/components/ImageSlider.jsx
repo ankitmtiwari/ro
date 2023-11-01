@@ -38,7 +38,7 @@ function ImageSlider() {
           modules={[Autoplay, Pagination]}
         >
           <SwiperSlide>
-            <img className="rounded-md" src={"/kent_purifier_banner"} alt="" />
+            <img className="rounded-md" src={"/kent_purifier_banner.png"} alt="" />
           </SwiperSlide>
           {slides.map((slide, slideIndex) => (
             <SwiperSlide key={slideIndex}>
