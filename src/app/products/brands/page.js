@@ -40,10 +40,10 @@ const All_Brands = () => {
     },
   ];
 
-  var brands = {};
-  Object.keys(products).map((id, index) => {
-    brands[products[id].required_desc.Brand] = "";
-  });
+  // var brands = {};
+  // Object.keys(products).map((id, index) => {
+  //   brands[products[id].required_desc.Brand] = "";
+  // });
 
   return (
     <>
