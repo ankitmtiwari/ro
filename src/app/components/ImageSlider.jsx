@@ -5,8 +5,6 @@ import { Pagination, Autoplay, Navigation } from "swiper/modules";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
-import { BsChevronCompactLeft, BsChevronCompactRight } from "react-icons/bs";
-import { RxDotFilled } from "react-icons/rx";
 
 function ImageSlider() {
   const slides = [
@@ -38,7 +36,11 @@ function ImageSlider() {
           modules={[Autoplay, Pagination]}
         >
           <SwiperSlide>
-            <img className="rounded-md" src={"/kent_purifier_banner.png"} alt="" />
+            <img
+              className="rounded-md"
+              src={"/kent_purifier_banner.png"}
+              alt=""
+            />
           </SwiperSlide>
           {slides.map((slide, slideIndex) => (
             <SwiperSlide key={slideIndex}>
