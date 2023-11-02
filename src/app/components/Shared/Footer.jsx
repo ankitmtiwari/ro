@@ -41,7 +41,7 @@ function Footer() {
           <div className="grid grid-cols-1 lg:grid-cols-4 text-white py-10 mx-5 lg:mx-16 gap-5">
             <div className="col-span-1">
               <div>
-                <img src={logo}  className="h-28 w-36"/>
+                <img src={logo}  className="h-28 w-40"/>
               </div>
               <div className="text-sm mt-5 leading-[1.5rem]">
                 We bring the years, global experience, and purity to guide our
