@@ -9,8 +9,8 @@ import Link from "next/link";
 
 function Footer() {
   // const logo= "https://res.cloudinary.com/da5scjnwh/image/upload/v1697369204/RO-IMAGES/xvfohueml2tyr1ricdqg.png";
-  const logo =
-    "https://res.cloudinary.com/da5scjnwh/image/upload/v1697386886/RO-IMAGES/yvrquerwywwkljyfyha3.png";
+  const logo = "/aardhya_aqua_solution_footer_logo.png"
+    // "https://res.cloudinary.com/da5scjnwh/image/upload/v1697386886/RO-IMAGES/yvrquerwywwkljyfyha3.png";
 
   return (
     <>
