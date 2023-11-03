@@ -11,17 +11,17 @@ const Repair_servicing = () => {
             ABOUT SERVICES
           </div>
         </div>
-        <div>
-          <div className="sm:flex sm:flex-row  p-2 m-2">
-            <div className="rounded-md sm:w-[50%] hover:scale-95 transition duration-500 cursor-pointer">
+        <div className="mt-4">
+          <div className="sm:grid sm:grid-cols-2 sm:gap-10 mb-8">
+            <div className="rounded-md  transition duration-500 cursor-pointer">
               <Image
                 src={img}
-                width={600}
+                width={500}
                 height={500}
-                className="rounded-md"
+                className="rounded-md w-full "
               />
             </div>
-            <div className=" sm:w-[50%] text-lg">
+            <div className="text-lg">
               <h1 className="text-xl font-medium">
                 Your Trusted Kent RO Service Center in Basti, Uttar Pradesh
               </h1>
@@ -54,7 +54,7 @@ const Repair_servicing = () => {
               </p>
             </div>
           </div>
-          <div className="p-2 m-2 text-lg">
+          <div className="text-lg mb-5">
             <p className="leading-7">
               But our commitment doesn't stop with Kent. We understand that
               water purifiers come in various brands and models. Our experienced

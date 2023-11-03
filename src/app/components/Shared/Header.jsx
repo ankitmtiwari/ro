@@ -101,7 +101,7 @@ function Header() {
                 <div className="flex align-middle items-center gap-8 ">
                   <Link href={"/"}>
                     <div className="hover:text-[#00ABFF] text-lg font-medium cursor-pointer">
-                      HHome
+                      Home
                     </div>
                   </Link>
                   <Link href={"/#home_products"}>
