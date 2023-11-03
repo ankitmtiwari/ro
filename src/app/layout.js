@@ -28,7 +28,7 @@ export default function RootLayout({ children }) {
         <meta property="og:type" content="website" />
         <meta
           property="og:title"
-          content="Aardhya Aqua Solution - MOBILE KENT RO SERVICE CENTER IN SIDDHARTHNAGAR"
+          content="Aardhya Aqua Solution - KENT RO SERVICE CENTER IN SIDDHARTHNAGAR"
         />
         <meta
           property="og:description"
