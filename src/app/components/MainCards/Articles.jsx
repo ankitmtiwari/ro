@@ -36,8 +36,14 @@ function Articles() {
           />
           <Article_card
             img="https://res.cloudinary.com/da5scjnwh/image/upload/v1697891298/RO-IMAGES/pni7fpfndepsefprceba.jpg"
-            title="Which water heater is more technology advanced?"
-            desc="This is water purifier basic details about the water purifier that how it works.This is water purifier basic details about the water purifier that how it works.This is water purifier basic details about the water purifier that how it works.This is water purifier basic details about the water purifier that how it works.This is water purifier basic details about the water purifier that how it works.This is water purifier basic details about the water purifier that how it works."
+            title="Top Myths About Water...You Dont Know?"
+            desc="There is no scientific evidence
+            to support the claim that you need to drink 8 glasses of
+            water a day. The amount of water a person needs can vary
+            depending on their age, gender, weight, activity level,
+            and climate. It is essential to listen to your body’s
+            signals of thirst and drink enough water to maintain
+            good hydration."
             goto="/articles/myths_about_water"
           />
         </div>

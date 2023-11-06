@@ -1,7 +1,6 @@
 "use client";
 import React from "react";
-import { Swiper, SwiperSlide } from "swiper/react";
-import { Pagination, Autoplay, Navigation } from "swiper/modules";
+import { Helmet } from "react-helmet";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
@@ -10,35 +9,40 @@ const Why_use_ro = () => {
   const img =
     "https://res.cloudinary.com/da5scjnwh/image/upload/v1697363666/RO-IMAGES/ftfg5iljeohhw5qeaajc.webp";
 
-  // const slides = [
-  //   {
-  //     // url: "https://res.cloudinary.com/da5scjnwh/image/upload/v1697279664/RO-IMAGES/ftvwsndemutajwpw8rue.png",
-  //   },
-  // ];
-
   return (
     <>
-      {/* <html>
-        <head>
-          <title>Why Use RO Water Purifier</title>
-        </head>
-        <body> */}
-      {/* FOR MOBILE SIZES */}
-      <div className="flex justify-center p-1 rounded-md sm:p-3 ">
-        <img
-          className="rounded-md w-full h-full sm:w-fit sm:h-fit"
-          src={img}
-          alt=""
-        />
-      </div>
-      {/* FOR BIG SCREENS LAPTOPS */}
       <div>
+        <Helmet>
+          <title>Why You Should use Ro/Water Purifier</title>
+          <meta
+            name="description"
+            content="Drinking impure water has harmful effects on your health, as
+            it acts like a slow poison, causing routine illness like
+            Cholera, Dysentery, Diarrhea, Jaundice, Tuberculosis and
+            even diseases like Cancer. More than 37.7 million Indians
+            are affected by water borne diseases annually, with over 1.5
+            million children are estimated to die of Diarrhea alone.
+            More than 80% of stomach diseases in India are caused by
+            polluted water."
+          />
+          <meta
+            name="keywords"
+            content="how to choose RO, how to select water purifier, things to consider while buying RO, things to consider while buying RO Purifier, things to consider while buying Water Purifier, things to consider while RO Water purifier"
+          />
+        </Helmet>
+        <div className="flex justify-center p-1 rounded-md sm:p-3 my-10">
+          <img
+            className="rounded-md w-full h-full sm:w-fit sm:h-fit"
+            src={img}
+            alt=""
+          />
+        </div>
         <div className=" text-[#75779f] mx-2">
           <div className="container mx-auto items-center">
             <div className="flex flex-row">
-              <div class=" mx-auto align-self-center">
-                <div class="text-left mx-auto w-75">
-                  <div class="text-4xl text-black font-semibold mb-2">
+              <div classname=" mx-auto align-self-center">
+                <div classname="text-left mx-auto w-75">
+                  <div classname="text-4xl text-black font-semibold mb-2">
                     Why use RO Water Purifiers?
                   </div>
                   <div className="leading-7 text-md">
@@ -75,10 +79,10 @@ const Why_use_ro = () => {
                     even have to be a burden on your pocket!
                     <br />
                   </div>
-                  <div class="text-lg  mb-2 font-semibold text-black">
+                  <div classname="text-lg  mb-2 font-semibold text-black">
                     Increasing Dissolved Impurities
                   </div>
-                  <div class="mb-2 ">
+                  <div classname="mb-2 ">
                     Impurities, especially Dissolved ones are increasing in
                     potable Water whether supplied by municipalities or from
                     Ground well.
@@ -104,11 +108,11 @@ const Why_use_ro = () => {
                     pure.
                     <br />
                   </div>
-                  <div class="title  mb-2 font-semibold text-black text-3xl sm:text-5xl">
+                  <div className="title  mb-2 font-semibold text-black text-3xl sm:text-5xl">
                     KENT - World’s Best &amp; India's Largest Selling <br />
                     RO Water Purifiers
                   </div>
-                  <div class="mb-2 leading-8">
+                  <div className="mb-2 leading-8">
                     Water you get in the tap by municipality or borewell may
                     have bacteria and viruses along with dissolved impurities.
                     RO not only removes bacteria and viruses also removes

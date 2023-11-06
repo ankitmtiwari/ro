@@ -1,5 +1,6 @@
 "use client";
 import React from "react";
+import { Helmet } from "react-helmet";
 
 function page() {
   const img =
@@ -7,7 +8,24 @@ function page() {
   return (
     <>
       <div>
-        <div className="flex justify-center p-1 rounded-md sm:p-3 ">
+        <Helmet>
+          <title>Top Myths About Water</title>
+          <meta
+            name="description"
+            content="Water is an essential element for human survival, and it
+            is crucial to consume the right amount of water to
+            maintain a healthy body. However, there are many myths
+            and misconceptions about water that can lead to
+            confusion and misinformation. In this blog, we will
+            discuss some common water myths and the corresponding
+            facts to dispel any misunderstandings."
+          />
+          <meta
+            name="keywords"
+            content="Top Myths about water, unknown facts about water, water you dont know, random facts about water, water knowledge, water description about unknown"
+          />
+        </Helmet>
+        <div className="flex justify-center p-1 rounded-md sm:p-3 my-10">
           <img
             className="rounded-md w-full h-full sm:w-fit sm:h-fit"
             src={img}

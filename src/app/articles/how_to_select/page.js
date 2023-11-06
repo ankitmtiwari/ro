@@ -5,41 +5,32 @@ import { Pagination, Autoplay, Navigation } from "swiper/modules";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
-
+import { Helmet } from "react-helmet";
 const HowToSelect = () => {
-  // const slides = [
-  //   {
-  //     // url: "https://res.cloudinary.com/da5scjnwh/image/upload/v1697279664/RO-IMAGES/ftvwsndemutajwpw8rue.png",
-  //     url: "https://res.cloudinary.com/da5scjnwh/image/upload/v1697363666/RO-IMAGES/ftfg5iljeohhw5qeaajc.webp",
-  //   },
-  // ];
-
   const img =
     "https://res.cloudinary.com/da5scjnwh/image/upload/v1697369548/RO-IMAGES/mgzi547vc5lujoccfrtm.jpg";
 
   return (
     <>
-      {/* <html>
-        <head>
-          <title>How to Select the best water purifier</title>
-        </head>
-        <body> */}
-      {/* FOR MOBILE SIZES */}
-      <div className="flex justify-center p-1 rounded-md sm:p-3">
-        <img
-          className="rounded-md w-full h-full sm:w-fit sm:h-fit"
-          src={img}
-          alt=""
-        />
-      </div>
-      {/* FOR BIG SCREENS LAPTOPS */}
-      {/* <div
-            id="Why_use_ro"
-            className="hidden sm:block sm:mt-0 p-1 rounded-md "
-          >
-            <img className="rounded-md" src={img} alt="" />
-          </div> */}
       <div>
+        <Helmet>
+          <title>How To Select Best Water Purifier</title>
+          <meta
+            name="description"
+            content="Aardhya Aqua Solutions - your trusted source for all things related to water purification. We are your  one-stop destination for high-quality water purifiers and reliable service. Located in Basti District, Uttar Pradesh, Aardhya Aqua Solutions, we understand the importance of clean and safe drinking water, and we are dedicated to making it accessible to you."
+          />
+          <meta
+            name="keywords"
+            content="how to choose RO, how to select water purifier, things to consider while buying RO, things to consider while buying RO Purifier, things to consider while buying Water Purifier, things to consider while RO Water purifier"
+          />
+        </Helmet>
+        <div className="flex justify-center p-1 rounded-md sm:p-3 my-10">
+          <img
+            className="rounded-md w-full h-full sm:w-fit sm:h-fit"
+            src={img}
+            alt=""
+          />
+        </div>
         <div className=" text-[#75779f] mx-2">
           <div className="container mx-auto items-center">
             <div className="flex flex-row">
@@ -227,8 +218,6 @@ const HowToSelect = () => {
           </h3>
         </div>
       </div>
-      {/* </body>
-      </html> */}
     </>
   );
 };
