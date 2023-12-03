@@ -294,7 +294,7 @@ const products = {
     title:
       "KENT Elegant Copper 8 L RO + UV + UF + TDS Control + UV in Tank + Copper Water Purifier",
     required_desc: {
-      Brand: "LIVPURE",
+      Brand: "KENT",
       Color: "White",
       Series: "Elegant Copper",
       "Model Name": "Elegant Copper",
@@ -339,8 +339,8 @@ const products = {
     title:
       "KENT Grand (11119) 8 L RO + UV + UF + TDS Control + UV in Tank Water Purifier",
     required_desc: {
-      // Brand: "KENT",
-      Brand: "AGR",
+      Brand: "KENT",
+      // Brand: "AGR",
       Color: "White",
       Series: "Grand",
       "Model Name": "Grand (11119)",
@@ -392,6 +392,361 @@ const products = {
 
       "Computerised Operation":
         "This water purifier employs sophisticated Save Water technology via a computerised process to prevent wastage. Also, the rejected water is moved to a different tank so that you can use it for household chores.",
+    },
+  },
+  9: {
+    display_Image: "/products/prod9_1.webp",
+    images: [
+      "/products/prod9_2.webp",
+      "/products/prod9_3.webp",
+      "/products/prod9_4.webp",
+      "/products/prod9_5.webp",
+    ],
+    title:
+      "Aqua Fresh Opel copper 18 ltr+copper filter 18 L RO + UV + UF + Copper + TDS Control Water Purifier with Prefilter  (White)",
+    required_desc: {
+      Brand: "AQUAFRESH",
+      Color: "White",
+      "Model Name": "Opel copper 18 ltr+copper filter",
+      Series: "Aqua fresh",
+      "Total Capacity": "18 L",
+      "Purifying Technology": "RO + UV + UF + Copper + TDS Control",
+    },
+    desc: {
+      "Detachable Storage Tank": "Yes",
+      "Auto Shut Off": "Yes",
+      "Auto Start": "Yes",
+      "Overflow Protection": "Yes",
+      "Child Lock": "No",
+      "Filter Life": "8000 L",
+      "Filtration Capacity": "20 L/hr",
+      "Purification Capacity": "2500 L",
+      "Cold Water Dispenser": "No",
+      "Hot Water Capacity": "NA L",
+      "Hot Water Dispenser": "No",
+      "Maximum Input Water Temperature": "50 degree C",
+      "Minimum Input Water Temperature": "5 degree C",
+      "Installation Type": "wall mount",
+      "Purification Stages": "14",
+      "Total Dissolved Solids (TDS) Levels": "1500 ppm",
+      "Water Flow Rate": "12-15L/h l/min",
+      "Filter Type":
+        "SEDIMENT COPPER FILTER UF MEMBRANE, 85 GPD IMPORTED RO MEMBRANE, UV, PREFILTER",
+      "Membrane Type": "UF MEMBRANE, 85 GPD RO MEMBRANE",
+      "Storage Tank Material": "ABS PLASTIC, FOOD GRADE MATERIAL",
+      Indicators: "Water Level Indicator",
+      "Other Body Features":
+        "SEALED INLINES WITH PUSH FIT, IMPORTED BOOSTER PUMP, EXCLUSIVE DESIGN",
+      "Other Features":
+        "Fully Automatic Operations with goodness of Copper Filter.",
+    },
+    details: {
+      "Product Description":
+        "The Aquafresh water purifier comes with a versatile design which can be wall-mountable or can be placed on the countertop. This is a perfect choice if you have space constraints as you can easily mount this to the wall and get easy access. If placed on the countertop, it can be used even by kids and takes you off the hassle of having to go with them every time to get water.",
+
+      "UV+RO+TDS Minimiser Technology":
+        "This water purifier makes use of a UV filter to remove all kinds of harmful bacteria and viruses from the water. The RO filter, on the other hand, removes TDS and dead microorganisms from the water, making it suitable to drink.",
+
+      "Copper Filter":
+        "This water purifier uses a copper filter to aid an array of benefits to your health like improved digestion, enhanced immunity, antioxidant action, and much more. Its anti-inflammatory effects and antibacterial properties make the water more safe for drinking, even for infants.",
+
+      "Leak-proof Performance":
+        "The push-fit connectors featured in this water purifier ensure to provide leak-proof performance so no water is wasted. It also offers a long-lasting performance, thanks to the durable materials used in the manufacturing of this water purifier.",
+
+      "Large Storage":
+        "This water purifier comes with a large in-built storage tank of up to 15 L, which can satisfy the needs of every member of your household. It also features a purified water level indicator to make it more user-friendly.",
+    },
+  },
+  10: {
+    display_Image: "/products/prod10_1.webp",
+    images: [
+      "/products/prod10_2.webp",
+      "/products/prod10_3.webp",
+      "/products/prod10_4.webp",
+      "/products/prod10_5.webp",
+    ],
+    title:
+      "Royal Aquafresh Omega RAF Opel Copper 18 L RO + UV + UF + TDS Water Purifier with Prefilter",
+    required_desc: {
+      Brand: "AQUAFRESH",
+      "Model Name": "Omega RAF Opel Copper",
+      Series: "RAF Omega",
+      Color: "(White-Blue)",
+      "Total Capacity": "18 L",
+      "Purifying Technology": "RO + UV + UF + TDS",
+    },
+    desc: {
+      "Filtration Capacity": "10 L/hr",
+      "Purification Capacity": "3500 L",
+      "Hot Water Capacity": "NA L",
+      "Hot Water Dispenser": "No",
+      "Installation Type": "Wall Mount",
+      "Purification Stages": "12",
+      "Total Dissolved Solids (TDS) Levels": "2000 ppm",
+      Width: "10 cm",
+      Height: "10 cm",
+      Depth: "27 cm",
+      Weight: "8 kg",
+    },
+    details: {
+      "Product Description":
+        "Effective Filtration The Royal Aquafresh water purifier comes with up to 12 stages of purification. It has RO+UV+UF+TDS purifying features with mineral cartridges that eliminate pollutants, contaminants, and germs. This purification system purifies water to give you fresh and clean drinking water.",
+      "Large Storage Tank":
+        "Its storage tank has a capacity of 18 l, ensuring you do not run out of water for everyday consumption. You can have a sufficient amount of clean water to serve your family for hours.",
+      "Improve Immunity":
+        "The water purifier comes with copper technology that eliminates harmful elements and provides the goodness of copper in your water. The water with this purity of copper helps in improving your health and immunity.",
+      "Enhanced Taste":
+        "Owing to its alkaline taste enhancer, the water purifier makes your water tasty and alkaline. It balances the pH level of your purified water to keep it healthy and safe. Infused with natural minerals and trace elements, the purified water has an enhanced taste.",
+      "Automatic Functions":
+        "The water purifier has automatic operations to help you not worry about the process. Designed with auto-start and auto-off functions, this appliance automatically purifies and fills up the tank.",
+    },
+  },
+  11: {
+    display_Image: "/products/prod11_1.webp",
+    images: [
+      "/products/prod11_2.webp",
+      "/products/prod11_3.webp",
+      "/products/prod11_4.webp",
+    ],
+    title:
+      "Aqua Fresh 15_Liters_Green_NYC 15 L RO + UV + UF + TDS Water Purifier  (Green)",
+    required_desc: {
+      Brand: "AQUAFRESH",
+      "Model Name": "15_Liters_Green_NYC",
+      Series: "WATER PURIFIER",
+      Color: "Green",
+      "Total Capacity": "15 L",
+      "Purifying Technology": "RO + UV + UF + TDS",
+    },
+    desc: {
+      "Model Name": "15_Liters_Green_NYC",
+      Series: "WATER PURIFIER",
+      Color: "Green",
+      "Total Capacity": "15 L",
+      "Purifying Technology": "RO + UV + UF + TDS",
+      "Power Requirement": "Single Phase 220 ± 10 V AC, 50 Hz",
+      "Operating Voltage": "24 V",
+      "Power Consumption": "60 W",
+      "Electrical Type": "Electric",
+      "Detachable Storage Tank": "No",
+      "Auto Shut Off": "Yes",
+      "Auto Start": "Yes",
+      "Overflow Protection": "Yes",
+      "Filter Life": "4000 L",
+      "Filter Type": "RO UV UF",
+      "Membrane Type": "RO MEMBRANE",
+      "Storage Tank Material": "GOOD PLASTIC",
+      Indicators: "Yes",
+      "Cold Water Dispenser": "No",
+      "Hot Water Dispenser": "No",
+      "Maximum Input Water Temperature": "25 degree C",
+      "Minimum Input Water Temperature": "10 degree C",
+      "Installation Type": "WALL MOUNT",
+      "Purification Stages": "RO UV UF TDS",
+      "Total Dissolved Solids (TDS) Levels": "500 ppm",
+    },
+    details: {
+      "Product Description":
+        "Thanks to its multiple filtration process, this Aqua Fresh 15 L RO + UV + UF + TDS Water Purifier lets you consume safe water while helping you save water. This filtration process includes a super sediment filter that gets rid of dense and dirt impurities, a carbon block filter that effectively absorbs harmful impurities and chlorine, and reverse osmosis (RO) membrane that eliminates viruses, bacteria, and heavy metals. Moreover, its mineral cartridge can add vital minerals to the water, the ultra-filtration cartridge offers utmost purity, and in-tank UV sterilisation ensures that the water in the storage tank is safe to consume.",
+      "Sediment and Carbon Filter":
+        "A sediment and carbon filter in this water purifier gets rid of dust, floating particles, rust, chlorine, VOCs and chemicals from the water. Also, it controls the colour and bad taste, thus keeping the water sweet, pure, and free from contaminants.",
+      "High Storage Capacity":
+        "With up to 15 L storage tank, this water purifier provides a constant supply of purified water.",
+      "Auto-start and Shut-off Function":
+        "Thanks to its auto-start and auto shut-off function, this water purifier automatically purifies and fills the tank when the level goes down. And, with overflow protection, it shuts off when the tank is full.",
+      "Leakproof Design":
+        "A special O-ring in this water purifier ensures leakproof performance. So, you won't have a watery mess around it during operation.",
+      "Suitable for Various Water Sources":
+        "Even if you receive water from the municipality, borewell, or a water tanker, this water purifier thoroughly purifies it to provide purified and safe water.",
+      "Durable Body":
+        "Made from ABS plastic, this water purifier’s body is free from rust, safe to use, and durable.",
+      "Stainless Steel Teeth":
+        "As the water purifier comes with stainless steel teeth, it offers proper grip of fittings and does not get rusted.",
+      "Compact Design and Mounting":
+        "Thanks to its compact and wall-mountable design, this water purifier takes less space and can be conveniently mounted on the wall.",
+    },
+  },
+  12: {
+    display_Image: "/products/prod12_1.webp",
+    images: ["/products/prod12_2.webp"],
+    title:
+      "Aqua Fresh Ventex Black COPPER+RO+UV+TDS AUTOMATIC ELECTRICAL BOREWELL WATER PURIFIER 12 L RO + UV + Copper Water Purifier",
+    required_desc: {
+      Brand: "AQUAFRESH",
+      "Model Name": "Ventex Black COPPER+RO+UV+TDS ",
+      Series: "AQUAFRESH WATER PURIFIER",
+      Color: "Black",
+      "Total Capacity": "12 L",
+      "Purifying Technology": "RO + UV + Copper",
+    },
+    desc: {
+      Series: "AQUAFRESH WATER PURIFIER",
+      Color: "Black",
+      "Total Capacity": "12 L",
+      "Purifying Technology": "RO + UV + Copper",
+      "Power Requirement": "Yes Power requirement 180V-240V",
+      "Operating Voltage": "220 V",
+      "Power Consumption": "30 W",
+      "Electrical Type": "ELECTRICAL",
+      "Purification Features":
+        "PRE FILTER,SEDIMENT FILTER,CARBON FILTER,MEMBRANE FILTER,copper FILTER,uv chamber",
+      "Detachable Storage Tank": "No",
+      "Auto Shut Off": "Yes",
+      "Auto Start": "Yes",
+      "Overflow Protection": "Yes",
+      "Child Lock": "No",
+      "Filter Life": "6000 L",
+      "Filter Type":
+        "PRE FILTER,CARBON FILTER,SEDIMENT FILTER,MEMBRANE FILTER,UV CHAMBER,COPPER FILTER",
+      "Membrane Type": "75 GPD",
+      "Storage Tank Material": "Food Grade Plastic",
+      Indicators: "no",
+      "Filtration Capacity": "12 L/hr",
+      "Purification Capacity": "6000 L",
+      "Installation Type": "WALL MOUNT, TABLE TOP",
+      "Purification Stages": 12,
+      "Total Dissolved Solids (TDS) Levels": "1500 ppm",
+      "Water Flow Rate": "0.6 l/min",
+    },
+    details: { "NO DATA": "NO DATA" },
+  },
+  13: {
+    display_Image: "/products/prod13_1.webp",
+    images: [
+      "/products/prod13_2.webp",
+      "/products/prod13_3.webp",
+      "/products/prod13_4.webp",
+      "/products/prod13_5.webp",
+    ],
+    title:
+      "Aqua Fresh Ventex WH COPPER+ALAKALINE+RO+UV+TDS AUTOMATIC ELECTRICAL WATER PURIFIER 12 L RO + UV + UF + Minerals + Copper Water Purifier  (White)",
+    required_desc: {
+      Brand: "AQUAFRESH",
+      "Model Name": "Ventex WH COPPER+ALAKALINE+RO+UV+TDS  ",
+      Series: "AQUAFRESH WATER PURIFIER",
+      Color: "White",
+      "Total Capacity": "12 L",
+      "Purifying Technology": "RO + UV + UF + Minerals + Copper",
+    },
+    desc: {
+      Series: "AQUAFRESH WATER PURIFIER",
+      Color: "Black",
+      "Total Capacity": "12 L",
+      "Purifying Technology": "RO + UV + Copper",
+      "Power Requirement": "Yes Power requirement 180V-240V",
+      "Operating Voltage": "220 V",
+      "Power Consumption": "30 W",
+      "Electrical Type": "ELECTRICAL",
+      "Purification Features":
+        "PRE FILTER,SEDIMENT FILTER,CARBON FILTER,MEMBRANE FILTER,copper FILTER,uv chamber",
+      "Detachable Storage Tank": "No",
+      "Auto Shut Off": "Yes",
+      "Auto Start": "Yes",
+      "Overflow Protection": "Yes",
+      "Child Lock": "No",
+      "Filter Life": "6000 L",
+      "Filter Type":
+        "PRE FILTER,CARBON FILTER,SEDIMENT FILTER,MEMBRANE FILTER,UV CHAMBER,COPPER FILTER",
+      "Membrane Type": "75 GPD",
+      "Storage Tank Material": "Food Grade Plastic",
+      Indicators: "no",
+      "Filtration Capacity": "12 L/hr",
+      "Purification Capacity": "6000 L",
+      "Installation Type": "WALL MOUNT, TABLE TOP",
+      "Purification Stages": "12",
+      "Total Dissolved Solids (TDS) Levels": "1500 ppm",
+      "Water Flow Rate": "0.6 l/min",
+    },
+    details: { "NO DATA": "NO DATA" },
+  },
+  14: {
+    display_Image: "/products/prod14_1.webp",
+    images: [
+      "/products/prod14_2.webp",
+      "/products/prod14_3.webp",
+      "/products/prod14_4.webp",
+      "/products/prod14_5.webp",
+    ],
+    title:
+      "LIVPURE LIV-PEP-PRO-STAR. 7 L RO + UV + UF + Minerals Water Purifier  (Blue, White)#JustHere",
+    required_desc: {
+      Brand: "LIVPURE",
+      "Model Name": "LIV-PEP-PRO-STAR",
+      Series: "AQUAFRESH WATER PURIFIER",
+      Color: "Blue, White",
+      "Total Capacity": "7 L",
+      "Purifying Technology": "RO + UV + UF + Minerals",
+    },
+    desc: {
+      "Model Name": "LIV-PEP-PRO-STAR.",
+      Color: "Blue, White",
+      "Total Capacity": "7 L",
+      "Purifying Technology": "RO + UV + UF + Minerals",
+      "In The Box":
+        "1 Water purifier, 1 Installation kit, 1 User Manual cum warranty card",
+      "Electrical Type": "Electric",
+      "Purification Features": "RO + UV + UF + Minerals",
+      "Child Lock": "No",
+      "Filter Life": "6000 L",
+      "Membrane Type": "Reverse Osmosis (RO) Membrane",
+      "Storage Tank Material": "ABS Food Grade Plastic",
+      Indicators: "LED - Power On and Off, Tank Full, Purification Process",
+      "Purification Capacity": "7 L",
+      "Hot Water Dispenser": "No",
+      "Installation Type": "Wall Mount",
+      "Purification Stages": "7 Stages Advanced Purification",
+      "Total Dissolved Solids (TDS) Levels": "2000 ppm",
+    },
+    details: {
+      "Stages of Filtration":
+        "This water purifier makes use of 7 stages of purification to ensure that you get to consume safe drinking water that’s free of impurities, viruses, and more. Its purification process eliminates all the harmful elements in the water so that you stay protected from various water-borne diseases.",
+      Mineraliser:
+        "This water purifier features a Mineraliser that ensures that the water that you drink contains essential minerals so that you gain health benefits and more.",
+      "LED Indicators":
+        "Thanks to the LED indicators of the water purifier, you can easily check whether there’s a proper power supply, proper water purification, etc., for the smooth functioning of the water purifier. This saves you time and effort.",
+      "Large Storage Capacity":
+        "This water purifier features a storage capacity of up to 7 L (making it ideal for families) so that you have enough drinking water for a long time.",
+      "Filter Type":
+        "Sediment Filter, Pre - Activated Carbon Adsorber, Anti - Scalant Cartridge, Ultra Violet (UV) Disinfection Column, Ultra Filtration Cartridge, Silver Impregnated Post Carbon Filter",
+    },
+  },
+  15: {
+    display_Image: "/products/prod15_1.webp",
+    images: [
+      "/products/prod15_2.webp",
+      "/products/prod15_3.webp",
+      "/products/prod15_4.webp",
+      "/products/prod15_5.webp",
+      "/products/prod15_6.webp",
+    ],
+    title:
+      "LIVPURE LIV-PEP-PRO-GRAND-COPPER 7 L RO + UV + Mineraliser Water Purifier  (Blue)",
+    required_desc: {
+      Brand: "LIVPURE",
+      "Model Name": "LIV-PEP-PRO-GRAND-COPPER",
+      Series: "AQUAFRESH WATER PURIFIER",
+      Color: "Blue",
+      "Total Capacity": "7 L",
+      "Purifying Technology": "RO + UV + Mineraliser",
+    },
+    desc: {
+      "Model Name": "LIV-PEP-PRO-GRAND-COPPER",
+      Color: "Blue",
+      "Total Capacity": "7 L",
+      "Purifying Technology": "RO + UV + Mineraliser",
+      "In The Box":
+        "1 Water Purifier, Installation Kit and User Manual Cum Warranty Card",
+      "Filtration Capacity": "15 L/hr",
+      "Hot Water Dispenser": "No",
+      "Installation Type": "Wall Mount",
+      "Purification Stages": "7",
+      "Total Dissolved Solids (TDS) Levels": "2000 ppm",
+      Indicators:
+        "Power On and Off, Tank Full and UV Sterilization On, Purification Process",
+    },
+    details: {
+      "Filter Type":
+        "Super Sediment Filter, Carbon Block Filter, Anti - Scalant Cartridge, Reverse Osmosis (RO) Membrane, Mineral Filter, In - Tank UV Sterilization",
     },
   },
 };
