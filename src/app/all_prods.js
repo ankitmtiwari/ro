@@ -749,6 +749,317 @@ const products = {
         "Super Sediment Filter, Carbon Block Filter, Anti - Scalant Cartridge, Reverse Osmosis (RO) Membrane, Mineral Filter, In - Tank UV Sterilization",
     },
   },
+  16: {
+    display_Image: "/products/prod16_1.webp",
+    images: [
+      "/products/prod16_2.webp",
+      "/products/prod16_3.webp",
+      "/products/prod16_4.webp",
+      "/products/prod16_5.webp",
+      "/products/prod16_6.webp",
+      "/products/prod16_7.webp",
+    ],
+    title:
+      "LIVPURE LIV-PEP-PRO-PLUS+ 7 L RO + UV + UF Water Purifier with Taste Enhancer (White)#JustHere",
+    required_desc: {
+      Brand: "Livpure",
+      "Model Name": "LIV-PEP-PRO-PLUS+",
+      Series: "Pep Pro++",
+      Color: "White",
+      "Total Capacity": "7 L",
+      "Purifying Technology": "RO + UV + UF",
+    },
+    details: {
+      "Sediment Filter":
+        "This is the first stage of purification in this water purifier. The sediment filter removes fine and coarse particulate from water.",
+      "Pre-carbon Block Filter Cum Absorber":
+        "This filter absorbs chlorine and organic impurities such as harmful pesticides from water. Other than this, the filter also absorbs bad taste, color, and odor-causing organic compounds from water.",
+      "Antiscalant Cartridge":
+        "The Antiscalant Cartridge chelates prevent scaling on this water purifier's membrane layers. This results in improved purification and it increases the life of the membrane.",
+      "Reverse Osmosis (RO) Membrane":
+        "In this fourth stage of purification, water is passed through the RO membrane at high pressure. This membrane removes hazardous chemicals such as pesticides, herbicides, heavy metals, hardness, and salts present in water. It also removes bacteria, viruses, and protozoa so your family is protected from microbiological threats from drinking unclean water.",
+      "Ultraviolet (UV) Disinfection":
+        "The ultraviolet disinfection column is the fifth stage of purification in this water purifier. In this stage, ultraviolet radiation makes water microbiologically safe to drink by disinfecting it from water-borne disease-causing bacteria, viruses, and protozoa.",
+      "Ultra-filtration Cartridge":
+        "This filtration cartridge effectively removes bacteria, giardia, cysts, and other harmful pollutants from water. It also removes fine suspended impurities from water, to improve its clarity.",
+      "Silver-impregnated Post-carbon Filter":
+        "This filter enhances the taste and quality of water by removing volatile organic impurities.",
+      "Convenience Features":
+        "To make operation simpler, this water purifier features a power on indicator, a purification process, and a tank full indicator.",
+      Performance:
+        "The Livpure Pep Pro++ water purifier is energy efficient and converts impure water up to 2000 ppm (TDS) into clean drinking water. The purifier delivers clean water at the rate up to 12 L per hour.",
+    },
+    desc: {
+      "Model Name": "LIV-PEP-PRO-PLUS+",
+      Color: "White",
+      "Total Capacity": "7 L",
+      "Purifying Technology": "RO + UV + UF",
+      "In The Box": "1 Water Purifier",
+      "Power Requirement": "50 Hz, 140-300 V",
+      "Operating Voltage": "24 V",
+      "Electrical Type": "Electrical and Storage",
+      "Purification Features": "RO + UV + UF",
+      "Overflow Protection": "No",
+      "Child Lock": "No",
+      "Storage Tank Material": "Food Safe, Non Toxic, Engineering Grade ABS",
+      Indicators: "Power, Purification",
+      "Other Convenience Features": "RO+UV+UF+ Taste Enhancer",
+      "Filtration Capacity": "12 L/hr",
+      "Purification Capacity": "7 L",
+      "Cold Water Dispenser": "No",
+      "Hot Water Dispenser": "No",
+      "Maximum Input Water Temperature": "3 degree C",
+      "Minimum Input Water Temperature": "0.3° degree C",
+      "Installation Type": "Wall Mount",
+      "Total Dissolved Solids (TDS) Levels": "2000 ppm",
+    },
+  },
+  17: {
+    title:
+      "LIVPURE Zinger Copper 6.5 L RO + UV + UF + Minerals + Copper Water Purifier 70% Water Recovery (White)",
+    required_desc: {
+      Brand: "Livpure",
+      "Model Name": "Zinger Copper",
+      Color: "White",
+      "Total Capacity": "6.5 L",
+      "Purifying Technology": "RO + UV + UF + Minerals + Copper",
+    },
+    details: {
+      "70% Water Recovery":
+        "The HR70 filtration technology of this water purifier recovers about 70% water and helps you save about 20,000 L of water in a single year.",
+      "7-stage Filtration":
+        "Through a 7-stage Filtration process, this water purifier effectively removes harmful elements from your drinking water. As a result, you get to drink clean water that does not contain bacteria, salt, and other contaminants.",
+      "Copper 29":
+        "This water purifier features a Copper 29 cartridge that adds a layer of protection. As a result, it helps improve immunity while eliminating harmful components during the process of water purification.",
+      "UV Disinfection":
+        "This essential home appliance comes with an in-tank UV sterilization unit to deliver clean drinking water. This feature prevents any possible contamination in the filtered water stored in the tank of this water purifier.",
+      "LED Indicators":
+        "The user-friendly indicative buttons make this an easy-to-use home appliance. You can quickly check the power supply, water level in the tank, and whether this water purifier is functioning properly or not.",
+      "Storage Tank":
+        "This 6.5 L water purifier features an insect-proof, high-quality tank. Thus, it is ideal for most family homes. Also, it purifies water quickly to ensure that you do not have to wait for a long time to drink clean water.",
+    },
+    desc: {
+      "Model Name": "Zinger Copper",
+      Color: "White",
+      "Total Capacity": "6.5 L",
+      "Purifying Technology": "RO + UV + UF + Minerals + Copper",
+      "In The Box": "Product, Installation kit, User Manual cum warranty card",
+      "Electrical Type": "Electric",
+      "Purification Features": "RO + UV + UF + Minerals",
+      "Purification Capacity": "6.5 L",
+      "Hot Water Dispenser": "No",
+      "Installation Type": "Wall Mount",
+      "Purification Stages": "7",
+      "Total Dissolved Solids (TDS) Levels": "2000 PPM",
+      "Child Lock": "No",
+    },
+    display_Image: "/products/prod17_1.webp",
+    images: [
+      "/products/prod17_2.webp",
+      "/products/prod17_3.webp",
+      "/products/prod17_4.webp",
+      "/products/prod17_5.webp",
+      "/products/prod17_6.webp",
+    ],
+  },
+  18: {
+    title:
+      "LIVPURE LIV-PLATINO-PLUS-COPPER2000 8.5 L RO + UV + UF + Minerals + Copper Water Purifier (White)",
+    required_desc: {
+      Brand: "Livpure",
+      "Model Name": "LIV-PLATINO-PLUS-COPPER2000",
+      Series: "Platino+ Cu - HR",
+      Color: "White",
+      "Total Capacity": "8.5 L",
+      "Purifying Technology": "RO + UV + UF + Minerals + Copper",
+    },
+    details: {
+      "Customised Dispensing Option":
+        "Boasting a custom dispensing option with an electronic tap, the Livpure Platino+ Water Purifier allows you to dispense filtered water as needed with a simple touch depending on the continuous flow or quantity of bottle or glass. You can easily modify the required quantity of water and save the setting so that you can use it in the future. Moreover, with its hybrid dispensing option, this water purifier lets you dispense purified water either with or without power.",
+      "Up to Eight Stages of Purification":
+        "This water purifier offers up to eight stages of sophisticated purification, including super sediment filter, PA filter, carbon block filter, RO membrane, mineral cartridge or mineraliser, copper 29 minerals cartridge, ultra-filtration, and in-tank UV sterilisation every hour to provide clean and safe drinking water.",
+      "Smart TDS and Water-saving Technology":
+        "Integrated with Smart TDS technology, this water purifier enhances the taste of filtered water and offers filtration of input water with TDS levels of up to 2000 ppm. Moreover, with its water-saving technology, this water purifier lets you save a high amount of water annually.",
+      "In-tank UV Sterilisation":
+        "Courtesy of its in-tank UV functionality, this water purifier ensures that the stored water is safe for drinking for a long period of time by sterilising it for up to 15 minutes every hour. This way, you can have access to clean drinking water without having to empty the storage tank even when you return from a short trip.",
+      "Ultra-filtration Feature":
+        "With its ultra-filtration feature, this water purifier easily disinfects the water by eliminating germs and viruses without losing vital minerals, resulting in safe and purified water consumption.",
+      "Effective Mineraliser":
+        "During the purification process, this water purifier’s mineraliser helps to retain beneficial minerals in the water, such as magnesium, potassium, etc. Moreover, magnesium is known to provide health benefits.",
+      "Copper Infuser":
+        "Thanks to its copper infuser, this water purifier can help you with multiple health benefits.",
+      "Additional Features":
+        "This water purifier comes with an additional sediment filter and an activated carbon filter to ensure a hassle-free experience.",
+    },
+    desc: {
+      "Model Name": "LIV-PLATINO-PLUS-COPPER2000",
+      Series: "Platino+ Cu - HR",
+      Color: "White",
+      "Total Capacity": "8.5 L",
+      "Purifying Technology": "RO + UV + UF + Minerals + Copper",
+      "In The Box":
+        "1 Water purifier, 1 Installation kit, 1 User Manual cum warranty card",
+      "Power Requirement": "140 - 300 V AC /50 Hz",
+      "Operating Voltage": "140 - 300 V AC /50 Hz V",
+      "Power Consumption": "40 W",
+      "Electrical Type": "Electrical & Storage",
+      "Detachable Storage Tank": "No",
+      "Auto Shut Off": "Yes",
+      "Auto Start": "Yes",
+      "Overflow Protection": "Yes",
+      "Child Lock": "No",
+      "Filter Life": "6000 L",
+      "Filter Type":
+        "Super Sediment Filter, Carbon Block Filter, UF Cartridge, Silver Impregnated Post Carbon Filter",
+      "Membrane Type": "RO Membrane",
+      "Storage Tank Material": "ABS Food Grade Plastic",
+      Indicators: "Feather Touch Display, LED Indicators",
+      "Other Body Features": "ABS Food Grade Plastic",
+      Alarms: "Yes",
+      "Filtration Capacity": "15 L/hr",
+      "Purification Capacity": "8.5 L",
+      "Cold Water Dispenser": "No",
+      "Hot Water Capacity": "No L",
+      "Hot Water Dispenser": "No",
+      "Maximum Input Water Temperature": "45 degree C",
+      "Minimum Input Water Temperature": "10°C degree C",
+      "Installation Type": "Wall Mount",
+      "Purification Stages": "8 Stage Advanced Purification",
+      "Total Dissolved Solids (TDS) Levels": "2000 ppm",
+      "Water Flow Rate": "1.8 L/Min l/min",
+    },
+    display_Image: "/products/prod18_1.webp",
+    images: [
+      "/products/prod18_2.webp",
+      "/products/prod18_3.webp",
+      "/products/prod18_4.webp",
+    ],
+  },
+  19: {
+    title:
+      "LIVPURE LIV-ENVY-ALKALINE 8 L RO + UV + UF + TDS + Alkaline Water Purifier (White)",
+    required_desc: {
+      Brand: "Livpure",
+      "Model Name": "LIV-ENVY-ALKALINE",
+      Series: "Envy Alkaline",
+      Color: "White",
+      "Total Capacity": "8 L",
+      "Purifying Technology": "RO + UV + UF + TDS + Alkaline",
+    },
+    details: {
+      "Alkaline Antioxidant Technology":
+        "The Livpure Envy Alkaline Water Purifier maintains the pH balance and neutralises the acid found in water. In addition, alkaline antioxidant water offers benefits that may help enhance your health.",
+      "Up to Seven Stages of Purification":
+        "Thanks to its super sediment filter, carbon block filter, RO membrane, Ultra Violet (UV) disinfection column, ultra-filtration cartridge, silver impregnated post carbon filter, and alkaline cartridge, this water purifier offers up to seven stages of advanced purification.",
+      "UV Disinfection":
+        "This water purifier employs UV light to rid the water of the bacteria, viruses, and protozoa that cause water-borne illnesses, making it safe to drink without the use of potentially dangerous chemicals. Its UV uses minimal power and does not change the flavour or odour of the water.",
+      "Silver Impregnated Post-carbon Filter":
+        "Integrated with a post-carbon filter, this water purifier improves the taste of the water and eliminates odours. And, as this filter features silver, it produces safe drinking water while preventing bacterial regrowth.",
+      "Additional Information":
+        "This water purifier includes a purification capacity of up to 15 L per hour, a storage tank capacity of up to 8 L, an up to 4 W UV LED, an up to 0.1 µm UF cartridge, and a high-capacity RO membrane for powerful purification performance.",
+      "Filter Type":
+        "Super Sediment Filter, Carbon Block Filter, Reverse Osmosis (RO) Membrane, UV Disinfection Column, UF Cartridge, Silver Impregnated Post Carbon Filter, Alkaline Cartridge",
+    },
+    desc: {
+      "Model Name": "LIV-ENVY-ALKALINE",
+      Series: "Envy Alkaline",
+      Color: "White",
+      "Total Capacity": "8 L",
+      "Purifying Technology": "RO + UV + UF + TDS + Alkaline",
+      "In The Box":
+        "Livpure Envy Alkaline Water Purifier, Installation Kit, User Manual cum Warranty Card",
+      "Operating Voltage": "240 V",
+      "Electrical Type": "Electrical",
+      "Detachable Storage Tank": "No",
+      "Filter Life": "6000 L",
+      "Membrane Type": "RO & UF",
+      "Storage Tank Material": "Food Grade Plastic",
+      "Filtration Capacity": "15 L/hr",
+      "Purification Capacity": "8 L",
+      "Cold Water Dispenser": "No",
+      "Hot Water Dispenser": "No",
+      "Installation Type": "Wall Mount",
+      "Purification Stages": "7 Stages Advanced Purification",
+      "Total Dissolved Solids (TDS) Levels": "2000 ppm",
+    },
+    display_Image: "/products/prod19_1.webp",
+    images: [
+      "/products/prod19_2.webp",
+      "/products/prod19_3.webp",
+      "/products/prod19_4.webp",
+      "/products/prod19_5.webp",
+    ],
+  },
+  20: {
+    title:
+      "LIVPURE LIV-PEP-PRO-GRAND-COPPER 7 L RO + UV + Minerals Water Purifier (Black)",
+    required_desc: {
+      Brand: "Livpure",
+      "Model Name": "LIV-PEP-PRO-GRAND-COPPER 7 L",
+      Color: "Black",
+      "Total Capacity": "7 L",
+      "Purifying Technology": "RO + UV + Minerals",
+    },
+    desc: {
+      "Detachable Storage Tank": "No",
+      "Auto Shut Off": "Yes",
+      "Auto Start": "Yes",
+      "Overflow Protection": "Yes",
+      "Filter Life": "6000 L",
+      "Filter Type": "Revers Osmosis",
+      "Storage Tank Material": "Food Grade Plastic",
+      "Filtration Capacity": "10 L/hr",
+      "Purification Capacity": "6000 L",
+      "Cold Water Dispenser": "No",
+      "Hot Water Capacity": "0 L",
+      "Hot Water Dispenser": "No",
+      "Installation Type": "Wall Mount",
+      "Purification Stages": "7",
+      "Total Dissolved Solids (TDS) Levels": "2000 ppm",
+      "Water Flow Rate": "0.15 l/min",
+    },
+    details: {
+      "Purification Features":
+        "Super Sediment Filter - Removes coarse and fine suspended particulate impurities from water,Carbon Block Filter - Adsorbs bad taste, color, and odor causing organic compounds from water,Anti-scalant Cartridge - Prevents scaling on membrane layers, improving purification capacity and membrane life,RO Membrane - Removes hazardous chemicals, bacteria, viruses, and salts from water,Mineral Cartridge - Ensures the right level of essential minerals in purified water,Copper Cartridge - Infuses natural copper in purified water,In-tank UV sterilization - Sterilizes stored water for safe consumption",
+    },
+    display_Image: "/products/prod20_1.webp",
+    images: ["/products/prod20_2.webp", "/products/prod20_3.webp"],
+  },
+  21: {
+    title:
+      "LIVPURE Platino copper 8.5 L RO + UV + UF + AMI + Mineralizer Water Purifier (Blue)",
+    required_desc: {
+      Brand: "Livpure",
+      "Model Name": "Platino copper",
+      Color: "Blue",
+      "Total Capacity": "8.5 L",
+      "Purifying Technology": "RO + UV + UF + AMI + Mineralizer",
+    },
+    details: {
+      "NO INFO": "NO DATA",
+    },
+    desc: {
+      "Model Name": "Platino copper",
+      Color: "Blue",
+      "Total Capacity": "8.5 L",
+      "Purifying Technology": "RO + UV + UF + AMI + Mineralizer",
+      "In The Box": "water purifier and installation kit",
+      "Power Consumption": "60 W",
+      "Electrical Type": "yes",
+      "Detachable Storage Tank": "Yes",
+      "Auto Shut Off": "Yes",
+      "Auto Start": "Yes",
+      "Overflow Protection": "Yes",
+      "Child Lock": "Yes",
+      "Filter Type": "super",
+      Indicators: "yes",
+      Alarms: "yes",
+      "Cold Water Dispenser": "No",
+      "Hot Water Dispenser": "No",
+    },
+    display_Image: "/products/prod21_1.webp",
+    images: ["/products/prod21_2.webp"],
+  },
 };
 
 // const all_ids=Object.keys(products)

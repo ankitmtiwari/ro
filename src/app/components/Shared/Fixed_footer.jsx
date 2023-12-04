@@ -39,6 +39,7 @@ function Fixed_footer() {
           </Link>
         </div>
       </div>
+     
     </>
   );
 }

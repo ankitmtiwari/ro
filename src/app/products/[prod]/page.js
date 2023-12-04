@@ -16,7 +16,6 @@ function page({ params }) {
   const details = products[current_prod].details;
 
   const [bigImage, setBigImage] = useState(img);
-
   return (
     <>
       <div className="sm:mt-10 sm:px-40">

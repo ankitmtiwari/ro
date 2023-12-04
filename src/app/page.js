@@ -7,12 +7,10 @@ import Catchy_words from "./components/MainCards/Catchy_words";
 import Whatwedo from "./components/MainCards/Whatwedo";
 import All_brands_main from "./components/MainCards/All_brands_main";
 import ImageSlider from "./components/ImageSlider";
-import Fixed_footer from "./components/Shared/Fixed_footer";
+import Fixed_Floating from "./components/Shared/Fixed_Floating";
 export default function Home() {
   return (
     <>
-      {/* <Why_use_ro /> */}
-      {/* <Header /> */}
       <ImageSlider />
       <Catchy_words />
       <Whatwedo />
@@ -20,7 +18,7 @@ export default function Home() {
       <Offered_solutions />
       <Articles />
       <All_brands_main />
-      {/* <Footer /> */}
+      {/* <Fixed_Floating /> */}
     </>
   );
 }
