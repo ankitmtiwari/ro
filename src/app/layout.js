@@ -43,8 +43,8 @@ export default function RootLayout({ children }) {
       <body className={inter.className}>
         <Header />
         {children}
-        <Footer />
         <Fixed_Floating />
+        <Footer />
         <Fixed_footer />
       </body>
     </html>
