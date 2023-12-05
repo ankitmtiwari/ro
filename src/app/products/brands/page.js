@@ -15,12 +15,14 @@ const All_Brands = () => {
     },
 
     {
-      img: "https://res.cloudinary.com/da5scjnwh/image/upload/v1696758960/RO-IMAGES/geuqwrh0hoxr81cb6sh0.jpg",
+      // img: "https://res.cloudinary.com/da5scjnwh/image/upload/v1696758960/RO-IMAGES/geuqwrh0hoxr81cb6sh0.jpg",
+      img: "/brands/aquaguard logo.jpg",
       brand: "AQUAGUARD",
     },
 
     {
-      img: "https://res.cloudinary.com/da5scjnwh/image/upload/v1696758959/RO-IMAGES/ajeox2e5kbbjjsdgyy8v.webp",
+      // img: "https://res.cloudinary.com/da5scjnwh/image/upload/v1696758959/RO-IMAGES/ajeox2e5kbbjjsdgyy8v.webp",
+      img: "/brands/havells logo.png",
       brand: "HAVELLS",
     },
 
@@ -29,10 +31,10 @@ const All_Brands = () => {
       brand: "AQUAFRESH",
     },
 
-    {
-      img: "https://res.cloudinary.com/da5scjnwh/image/upload/v1696759254/RO-IMAGES/bzler0ndan58e28fqalh.png",
-      brand: "VENUSAQUA",
-    },
+    // {
+    //   img: "https://res.cloudinary.com/da5scjnwh/image/upload/v1696759254/RO-IMAGES/bzler0ndan58e28fqalh.png",
+    //   brand: "VENUSAQUA",
+    // },
 
     {
       img: "https://res.cloudinary.com/da5scjnwh/image/upload/v1696759967/RO-IMAGES/ynvn2p7xn0shqnig97rc.jpg",
@@ -61,7 +63,7 @@ const All_Brands = () => {
                 src={image.img}
                 height={100}
                 width={100}
-                className="h-80 w-80"
+                className="h-60 w-60 object-contain"
               />
               {/* {image.brand} */}
             </div>

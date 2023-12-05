@@ -9,8 +9,8 @@ const Fixed_Floating = () => {
 
   return (
     <>
-      <div className="hidden mr-0 sm:block sticky bottom-0 z-20 w-fit p-2 bg-transparent ">
-        <div className="p-1 m-1 ">
+      <div className="hidden mr-0 sm:block sticky bottom-0 z-20 w-fit p-2 ">
+        <div className="p-1 m-1  ">
           {/* <div className="bg-green-400 p-2 m-2 rounded-lg text-white font-semibold cursor-pointer">
             Whatsapp
           </div>

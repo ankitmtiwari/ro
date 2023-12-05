@@ -1252,6 +1252,290 @@ const products = {
       "/products/prod25_6.webp",
     ],
   },
+  26: {
+    title:
+      "HAVELLS Max Alkaline 7 L RO + UV + Alkaline Water Purifier 8 Stages, Patented Corner/wall mounting and Alkaline water technology (BLUE/WHITE)",
+    required_desc: {
+      Brand: "HAVELLS",
+      "Model Name": "Max Alkaline",
+      Series: "",
+      Color: "BLUE/WHITE",
+      "Total Capacity": "7 L",
+      "Purifying Technology": "RO + UV + Alkaline",
+    },
+    details: {
+      "Double Purification System":
+        "This water purifier features a double purification system. Here, the water passes through the RO membrane and then undergoes UV purification, making it safe for consumption.",
+      "Alkaline Taste Enhancer":
+        "This feature adds essential alkaline minerals and also reduces the Oxidation Reduction Potential (ORP), thereby increasing the pH level of the filtered water. This method helps transform normal water into alkaline water, which not only makes it healthier but also helps enhance the taste as well.",
+      Revitalizer:
+        "Thanks to this feature, the water molecules are restructured, making them biologically active. This helps enhance the pH balance, mineral absorption, hydration, and alkalinity of the purified water.",
+      "iProtect Purification Monitoring":
+        "Thanks to this system, the purification process of the water is monitored continuously so you can get safe and pure drinking water at all times.",
+      "Safety Feature":
+        "This water purifier can perform optimally even when the voltage fluctuates between 170 V - 330 V.",
+      "Stylish Design":
+        "Thanks to this appliance’s 3-way mounting design, you can mount this appliance on a straight wall, place it on a table, or mount it in a corner.",
+      Faucet:
+        "This water purifier features a soft-touch faucet, which dispenses clean and hygienic water seamlessly, without any splashing.",
+      "Process and Error Alerts":
+        "It can provide self-diagnostic, purification, and tank-full process alerts as well as error alerts for UV, SV, and pump failure.",
+      "Tank Cover":
+        "The tank cover of this appliance is designed to prevent insects and dust particles from entering the tank.",
+      "Easily Removable Tank":
+        "The 7 L water tank of this appliance can be easily removed and cleaned whenever needed.",
+      "Mineralz Cartridge":
+        "The Mineralz cartridge of this water purifier adds back the full spectrum of natural minerals and trace elements, thereby ensuring that the pH level of the purified water is corrected.",
+      "Other Features":
+        "Best-in-class 100% RO & UV Purified alkaline water in 7 stages Purification Technology with 3 ways mounting options corner, wall mounting and table top and alerts, hygiene assured zero splash water dispensing",
+    },
+    desc: {
+      "Model Name": "Max Alkaline",
+      Color: "BLUE/WHITE",
+      "Total Capacity": "7 L",
+      "Purifying Technology": "RO + UV + Alkaline",
+      "In The Box":
+        "1 N Water Purifier, 1 N User Manual & 1 N Installation Kit",
+      "Power Requirement": "45 W",
+      "Operating Voltage": "230 V, 1 Phase AC V",
+      "Power Consumption": "45 W",
+      "Electrical Type": "Home Appliances",
+      "Purification Features": "RO + UV + Alkaline",
+      "Auto Shut Off": "Yes",
+      "Child Lock": "No",
+      "Filter Type": "RO+UV+ Alkaline",
+      "Storage Tank Material": "Food Grade Plastic",
+      Indicators:
+        "Process alerts: Self-diagnostic, purification and tank full. Error alerts: UV, SV or pump failure",
+      Alarms: "No",
+      "Purification Capacity": "7 L",
+      "Cold Water Dispenser": "No",
+      "Hot Water Dispenser": "No",
+      "Maximum Input Water Temperature": "40 degreeC",
+      "Installation Type": "Wall Mount",
+      "Purification Stages": "7",
+      "Total Dissolved Solids (TDS) Levels": "2000 ppm",
+      "Water Flow Rate": "Up to 15 liters per hour l/min",
+    },
+    display_Image: "/products/prod26_1.webp",
+    images: [
+      "/products/prod26_2.webp",
+      "/products/prod26_3.webp",
+      "/products/prod26_4.webp",
+      "/products/prod26_5.webp",
+    ],
+  },
+  27: {
+    title:
+      "HAVELLS Max Alkaline 7 L RO + UV + Alkaline Water Purifier 8 Stages, Patented Corner/wall mounting and Alkaline water technology (BLUE/WHITE)",
+    required_desc: {
+      Brand: "HAVELLS",
+      "Model Name": "Max Alkaline",
+      Series: "",
+      Color: "BLUE/WHITE",
+      "Total Capacity": "7 L",
+      "Purifying Technology": "RO + UV + Alkaline",
+    },
+    details: {
+      "Double Purification System":
+        "This water purifier features a double purification system. Here, the water passes through the RO membrane and then undergoes UV purification, making it safe for consumption.",
+      "Alkaline Taste Enhancer":
+        "This feature adds essential alkaline minerals and also reduces the Oxidation Reduction Potential (ORP), thereby increasing the pH level of the filtered water. This method helps transform normal water into alkaline water, which not only makes it healthier but also helps enhance the taste as well.",
+      Revitalizer:
+        "Thanks to this feature, the water molecules are restructured, making them biologically active. This helps enhance the pH balance, mineral absorption, hydration, and alkalinity of the purified water.",
+      "iProtect Purification Monitoring":
+        "Thanks to this system, the purification process of the water is monitored continuously so you can get safe and pure drinking water at all times.",
+      "Safety Feature":
+        "This water purifier can perform optimally even when the voltage fluctuates between 170 V - 330 V.",
+      "Stylish Design":
+        "Thanks to this appliance’s 3-way mounting design, you can mount this appliance on a straight wall, place it on a table, or mount it in a corner.",
+      Faucet:
+        "This water purifier features a soft-touch faucet, which dispenses clean and hygienic water seamlessly, without any splashing.",
+      "Process and Error Alerts":
+        "It can provide self-diagnostic, purification, and tank-full process alerts as well as error alerts for UV, SV, and pump failure.",
+      "Tank Cover":
+        "The tank cover of this appliance is designed to prevent insects and dust particles from entering the tank.",
+      "Easily Removable Tank":
+        "The 7 L water tank of this appliance can be easily removed and cleaned whenever needed.",
+      "Mineralz Cartridge":
+        "The Mineralz cartridge of this water purifier adds back the full spectrum of natural minerals and trace elements, thereby ensuring that the pH level of the purified water is corrected.",
+      "Other Features":
+        "Best-in-class 100% RO & UV Purified alkaline water in 7 stages Purification Technology with 3 ways mounting options corner, wall mounting and table top and alerts, hygiene assured zero splash water dispensing",
+    },
+    desc: {
+      "Model Name": "Max Alkaline",
+      Color: "BLUE/WHITE",
+      "Total Capacity": "7 L",
+      "Purifying Technology": "RO + UV + Alkaline",
+      "In The Box":
+        "1 N Water Purifier, 1 N User Manual & 1 N Installation Kit",
+      "Power Requirement": "45 W",
+      "Operating Voltage": "230 V, 1 Phase AC V",
+      "Power Consumption": "45 W",
+      "Electrical Type": "Home Appliances",
+      "Purification Features": "RO + UV + Alkaline",
+      "Auto Shut Off": "Yes",
+      "Child Lock": "No",
+      "Filter Type": "RO+UV+ Alkaline",
+      "Storage Tank Material": "Food Grade Plastic",
+      Indicators:
+        "Process alerts: Self-diagnostic, purification and tank full. Error alerts: UV, SV or pump failure",
+      Alarms: "No",
+      "Purification Capacity": "7 L",
+      "Cold Water Dispenser": "No",
+      "Hot Water Dispenser": "No",
+      "Maximum Input Water Temperature": "40 degreeC",
+      "Installation Type": "Wall Mount",
+      "Purification Stages": "7",
+      "Total Dissolved Solids (TDS) Levels": "2000 ppm",
+      "Water Flow Rate": "Up to 15 liters per hour l/min",
+    },
+    display_Image: "/products/prod27_1.webp",
+    images: [
+      "/products/prod27_2.webp",
+      "/products/prod27_3.webp",
+      "/products/prod27_4.webp",
+      "/products/prod27_5.webp",
+    ],
+  },
+  28: {
+    title:
+      "HAVELLS Gracia Alkaline Fab 6.5 L RO + UV + Alkaline Water Purifier (Black)",
+    required_desc: {
+      Brand: "HAVELLS",
+      "Model Name": "Gracia Alkaline Fab",
+      Series: "",
+      Color: "Black",
+      "Total Capacity": "6.5 L",
+      "Purifying Technology": "RO + UV + Alkaline",
+    },
+    desc: {
+      "Model Name": "Gracia Alkaline Fab",
+      Color: "Black",
+      "Total Capacity": "6.5 L",
+      "Purifying Technology": "RO + UV + Alkaline",
+      "In The Box":
+        "1 Water Purifier, User Manual, Installation Kit, Warranty Card",
+      Width: "28.4 cm",
+      Height: "50.01 cm",
+      Depth: "35.41 cm",
+      Weight: "10.6 kg",
+    },
+    details: {},
+    display_Image: "/products/prod28_1.webp",
+    images: [
+      "/products/prod28_2.webp",
+      "/products/prod28_3.webp",
+      "/products/prod28_4.webp",
+      "/products/prod28_5.webp",
+      "/products/prod28_6.webp",
+    ],
+  },
+  29: {
+    title:
+      "HAVELLS Digiplus Alkaline 6 L RO + UV + Alkaline Water Purifier 8 Stages, Double UV Purification and Patented Alkaline water technology (Blue Green)",
+    required_desc: {
+      Brand: "HAVELLS",
+      "Model Name": "Digiplus Alkaline",
+      Color: "Blue Green",
+      "Total Capacity": "6 L",
+      "Purifying Technology": "RO + UV + Alkaline",
+    },
+    details: {
+      "Product Description":
+        "Provide your family safe and clean water with the Havells Digiplus Alkaline Water Purifier. Its multi-stage purification process ensures safe and clean drinking water. Equipped with iProtect purification monitoring feature, this water purifier stops the water supply when water is not safe for drinking. And, its double UV purification function provides safe drinking water throughout the day. Moreover, this water purifier adds essential alkaline minerals and reduces the Oxidation Reduction Potential (ORP) in water and changes regular water into alkaline water, ensuring improved taste and health benefits.",
+      "Eight-stage Purification Process":
+        "The eight-stage purification process of this water purifier provides alkaline water with pH eight to pH ten.",
+      "User-friendly Features":
+        "The iProtect purification monitoring feature of this water purifier stops water when it's unsafe to drink. The other convenient features, such as process indicator, digital clock, maintenance and error alert, and zero splashes hygienic water dispensing, add to the ease of use and offer a user-friendly experience.",
+      "Double UV Purification":
+        "Equipped with a double UV purification function, this air purifier offers safe and clean drinking water all day long. Moreover, it also improves the level of oxygen in purified water and ensures hygienic maintenance of the water tank.",
+      "Water Taste Enhancer":
+        "This water purifier adds essential alkaline minerals and reduces the Oxidation Reduction Potential (ORP) in water, changing regular water into alkaline water. This way, it not only offers additional health benefits but also improves the taste of water.",
+      "Effective Revitalizer":
+        "The Revitalizer of this water purifier helps it naturally enhance pH balance, hydration, alkalinity, and mineral absorption, offering you safe and healthy drinking water.",
+      Mineralz:
+        "The Mineralz of this water purifier balances the pH level of purified water, adding natural minerals that result in improved taste and benefits of water.",
+      "Smart Alerts":
+        "The smart alert feature of this water purifier provides process alerts including self-diagnostic, purification and tank full and error alerts, such as UV, SV or pump failure for your convenience.",
+      "Maintenance Alerts":
+        "When it's time for periodic servicing, the maintenance alert of this water purifier will surely let you know.",
+      "Cartridge Life Indicator":
+        "Thanks to its cartridge life indicator, this water purifier tracks and indicates the filter life expectancy for hassle-free maintenance.",
+      "Tank Cover":
+        "Boasting an ingress protection tank cover, this water purifier prevents the entry of dust particles and microbes.",
+      "Sophisticated Design":
+        "Featuring an elegant design, this water purifier is an ideal addition to your premium kitchen decor. And, it also features an attractive jog dial for water dispensing.",
+    },
+    desc: {
+      "Model Name": "Digiplus Alkaline",
+      Color: "Blue Green",
+      "Total Capacity": "6 L",
+      "Purifying Technology": "RO + UV + Alkaline",
+      "In The Box": "1 Water Purifier, User manual, installation kit",
+      "Power Requirement": "45",
+      "Operating Voltage": "230 V, 1 Phase AC V",
+      "Power Consumption": "45 W",
+      "Electrical Type": "Home Appliances",
+      "Purification Features": "RO + UV + Alkaline",
+      "Auto Shut Off": "Yes",
+      "Child Lock": "No",
+      "Filter Type": "RO+UV+ Alkaline",
+      "Storage Tank Material": "Food Grade Plastic",
+      Indicators:
+        "Process alerts: Self-diagnostic, purification and tank full. Error alerts: UV, SV or pump failure",
+      Alarms: "No",
+      "Filtration Capacity": "15 L/hr",
+      "Cold Water Dispenser": "Yes",
+      "Hot Water Dispenser": "Yes",
+      "Maximum Input Water Temperature": "40 degreeC",
+      "Installation Type": "Wall Mount",
+      "Purification Stages": "8",
+      "Total Dissolved Solids (TDS) Levels": "2000 ppm",
+      "Water Flow Rate": "Up to 15 liters per hour l/min",
+    },
+    display_Image: "/products/prod29_1.webp",
+    images: [
+      "/products/prod29_2.webp",
+      "/products/prod29_3.webp",
+      "/products/prod29_4.webp",
+      "/products/prod29_5.webp",
+      "/products/prod29_6.webp",
+    ],
+  },
+  30: {
+    title:
+      "HAVELLS Active UV Water Purifier 3 Stages with Smart Alerts and Electrical Protection system (WHITE BLUE)",
+    required_desc: {
+      Brand: "HAVELLS",
+      "Model Name": "Active",
+      Series: "",
+      Color: "WHITE BLUE",
+      "Total Capacity": "",
+      "Purifying Technology": "UV",
+    },
+    desc: {
+      "Model Name": "Active",
+      Color: "WHITE BLUE",
+      "Purifying Technology": "UV",
+      "In The Box":
+        "1 N Water Purifier, 1 N User Manual & 1 N Installation Kit",
+      "Power Requirement": "25 W",
+      "Operating Voltage": "230 V, 1 Phase AC V",
+      "Power Consumption": "25 W",
+      "Cold Water Dispenser": "No",
+      "Hot Water Dispenser": "No",
+      "Purification Stages": "3",
+      "Water Flow Rate": "Up to 60 litres per hour l/min",
+      Width: "43 cm",
+      Height: "29 cm",
+      Depth: "16.7 cm",
+      Weight: "4.1 kg",
+    },
+    details: {},
+    display_Image: "/products/prod30_1.webp",
+    images: [],
+  },
 };
 
 // const all_ids=Object.keys(products)

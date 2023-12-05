@@ -3,13 +3,13 @@ import Image from "next/image";
 
 const AC_WashingMachine_Servicing = () => {
   //   const img = "/about_us_1.png";
-  const img = "/kent_ro_service.jpg";
+  const img = "/ac.png";
   return (
     <>
       <div className="mt-10 sm:px-32">
         <div className="flex justify-center">
           <div className="p-2 items-center text-3xl font-bold">
-            ABOUT SERVICES
+            A.C. / Washing Machine Services
           </div>
         </div>
         <div>

@@ -9,8 +9,8 @@ import Link from "next/link";
 
 function Footer() {
   // const logo= "https://res.cloudinary.com/da5scjnwh/image/upload/v1697369204/RO-IMAGES/xvfohueml2tyr1ricdqg.png";
-  const logo = "/aardhya_aqua_solution_footer_logo.png"
-    // "https://res.cloudinary.com/da5scjnwh/image/upload/v1697386886/RO-IMAGES/yvrquerwywwkljyfyha3.png";
+  const logo = "/aardhya_aqua_solution_footer_logo.png";
+  // "https://res.cloudinary.com/da5scjnwh/image/upload/v1697386886/RO-IMAGES/yvrquerwywwkljyfyha3.png";
 
   return (
     <>
@@ -38,10 +38,10 @@ function Footer() {
             </div>
           </div> */}
 
-          <div className="grid grid-cols-1 lg:grid-cols-4 text-white py-10 mx-5 lg:mx-16 gap-5">
+          <div className="grid grid-cols-1 sm:grid-cols-3 text-white py-10 mx-5 lg:mx-16 gap-5">
             <div className="col-span-1">
               <div>
-                <img src={logo}  className="h-28 w-40"/>
+                <img src={logo} className="h-28 w-40" />
               </div>
               <div className="text-sm mt-5 leading-[1.5rem]">
                 We bring the years, global experience, and purity to guide our
@@ -57,36 +57,31 @@ function Footer() {
                 <h1 className="text-[13px] font-[400] hover:text-gray-400 pb-0.5 cursor-pointer">
                   A.C. Servicing
                 </h1>
-                {/* <h1 className="text-[13px] font-[400] hover:text-gray-400 pb-0.5 cursor-pointer">
-                Fridge Servicing
-              </h1> */}
                 <h1 className="text-[13px] font-[400] hover:text-gray-400 pb-0.5 cursor-pointer">
                   Washing Machine Servicing
                 </h1>
-                {/* <h1 className="text-[13px] font-[400] hover:text-gray-400 pb-0.5 cursor-pointer">
-                Investor Presentation
-              </h1> */}
               </div>
               <div className="col-span-1">
-                <h1 className="mb-4 text-[1rem] font-[500]">Products</h1>
-                <h1 className="text-[13px] font-[400] hover:text-gray-400 pb-0.5">
-                  Kent RO
+                <h1 className="mb-4 text-[1rem] font-[500]">
+                  Available Brands
                 </h1>
                 <h1 className="text-[13px] font-[400] hover:text-gray-400 pb-0.5">
-                  Aquaguad
+                  <Link href={"/products/brands/KENT"}>Kent RO</Link>
                 </h1>
                 <h1 className="text-[13px] font-[400] hover:text-gray-400 pb-0.5">
-                  Havells Aquas
+                  <Link href={"/products/brands/AQUAGUARD"}>Aquaguad</Link>
                 </h1>
                 <h1 className="text-[13px] font-[400] hover:text-gray-400 pb-0.5">
-                  Aqua Fresh
+                  <Link href={"/products/brands/HAVELLS"}>Havells</Link>
                 </h1>
                 <h1 className="text-[13px] font-[400] hover:text-gray-400 pb-0.5">
-                  Livpure
+                  <Link href={"/products/brands/AQUAFRESH"}> Aqua Fresh</Link>
+                </h1>
+                <h1 className="text-[13px] font-[400] hover:text-gray-400 pb-0.5">
+                  <Link href={"/products/brands/LIVPURE"}>Livpure</Link>
                 </h1>
               </div>
             </div>
-
             <div className="col-span-1">
               <h1 className="mb-4 text-[1rem] font-[500]">Connect</h1>
               <div>
